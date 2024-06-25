@@ -1,4 +1,4 @@
-name: PyTest
+name: PyLint
 
 on:
   push:
@@ -48,4 +48,4 @@ jobs:
     - name: Run PyTest
       run: |
         source $CONDA/bin/activate swabber
-        PYTHONPATH=src/. pytest -v src/tests/
+        PYTHONPATH=src/. pylint $(git ls-files '*.py' ':!:src/examples/*') --fail-under=5
