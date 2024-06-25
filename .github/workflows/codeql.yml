@@ -1,0 +1,60 @@
+name: "CodeQL Advanced"
+
+on:
+  push:
+    branches:
+      - '!vic'
+      - '!dev'
+      - 'main'
+
+jobs:
+  analyze:
+    name: Analyze
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.12
+
+      - name: Install required system packages
+        run: |
+          sudo apt-get update --fix-missing
+          sudo apt-get install -y wget bzip2 ca-certificates curl git build-essential manpages-dev
+          sudo apt-get clean
+          sudo rm -rf /var/lib/apt/lists/*
+
+      - name: Copy requirements file
+        run: |
+          cp envs/pip/requirements.txt .  # Only needed if you have separate pip requirements
+          cp envs/conda/environment.yml .
+
+      - name: Install dependencies
+        run: |
+          # $CONDA is an environment variable pointing to the root of the miniconda directory
+          $CONDA/bin/conda env update --file environment.yml
+          $CONDA/bin/conda init bash
+          
+      
+      - name: Install Swabber Python packages
+        run: |
+            source $CONDA/bin/activate swabber
+            pip install --no-cache-dir --upgrade pip
+            pip install --no-cache-dir -r requirements.txt 
+        shell: bash -el {0}
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v2
+        with:
+          languages: ${{ 'python' }}
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v2
+        with:
+          category: "/language:${{ 'python' }}"
