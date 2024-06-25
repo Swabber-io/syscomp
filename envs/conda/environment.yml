@@ -18,3 +18,5 @@ dependencies:
   - pytorch
   - seaborn
   - mesa
+  - pytest
+  - pylint
