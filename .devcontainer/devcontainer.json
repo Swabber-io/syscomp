@@ -1,7 +1,7 @@
 {
     "name": "Swabber",
     "build": {
-        "dockerfile": "../Dockerfile.CPU",
+        "dockerfile": "../Dockerfile.GPU",
         "args": {
             "platform": "linux/amd64"
         }

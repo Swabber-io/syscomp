@@ -1,3 +1,3 @@
-from swabber.server import server
+from model import server
 
-server.launch()
+server.launch(open_browser=True)
