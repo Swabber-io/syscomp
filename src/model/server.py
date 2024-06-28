@@ -1,24 +1,23 @@
 import math
 import mesa
-
-from model import State, SwabberModel, number_infected
-
+from impl_config import State
+from model import SwabberModel
 
 def network_portrayal(G):
     # The model ensures there is always 1 agent per node
 
     def node_color(agent):
         return {State.INFECTED: "#FF0000", State.SUSCEPTIBLE: "#008000"}.get(
-            agent.state, "#808080"
+            agent.user_state, "#808080"
         )
 
     def edge_color(agent1, agent2):
-        if State.RESISTANT in (agent1.state, agent2.state):
+        if State.RESISTANT in (agent1.user_state, agent2.user_state):
             return "#000000"
         return "#e8e8e8"
 
     def edge_width(agent1, agent2):
-        if State.RESISTANT in (agent1.state, agent2.state):
+        if State.RESISTANT in (agent1.user_state, agent2.user_state):
             return 3
         return 2
 
@@ -30,7 +29,7 @@ def network_portrayal(G):
         {
             "size": 6,
             "color": node_color(agents[0]),
-            "tooltip": f"id: {agents[0].unique_id}<br>state: {agents[0].state.name}",
+            "tooltip": f"id: {agents[0].unique_id}<br>state: {agents[0].user_state.name}",
         }
         for (_, agents) in G.nodes.data("agent")
     ]
@@ -61,15 +60,12 @@ chart = mesa.visualization.ChartModule(
     ]
 )
 
-
 def get_resistant_susceptible_ratio(model):
     ratio = model.resistant_susceptible_ratio()
-    ratio_text = "&infin;" if ratio is math.inf else f"{ratio:.2f}"
-    infected_text = str(number_infected(model))
+    ratio_text = "&infin;" if ratio is float('inf') else f"{ratio:.2f}"
+    infected_text = model.number_infected()
 
-    return "Resistant/Susceptible Ratio: {}<br>Infected Remaining: {}".format(
-        ratio_text, infected_text
-    )
+    return f"Resistant/Susceptible Ratio: {ratio_text}<br>Infected Remaining: {infected_text}"
 
 
 model_params = {
