@@ -80,6 +80,12 @@ class Virus(Infection):
             self.try_to_infect_neighbors(model, pos)
         state = self.try_check_situation(state)
         return state
+    
+    def __str__(self) -> str:
+        return f"VIRUS"
+    
+    def __repr__(self) -> str:
+        return self.__str__()
 
 class Bacteria(Infection):
     def __init__(self) -> None:

@@ -7,7 +7,7 @@ def network_portrayal(G):
     # The model ensures there is always 1 agent per node
 
     def node_color(agent):
-        return {State.INFECTED: "#FF0000", State.SUSCEPTIBLE: "#008000"}.get(
+        return {State.INFECTED: "#B94848", State.SUSCEPTIBLE: "#0ABFB3"}.get(
             agent.user_state, "#808080"
         )
 
@@ -18,18 +18,33 @@ def network_portrayal(G):
 
     def edge_width(agent1, agent2):
         if State.RESISTANT in (agent1.user_state, agent2.user_state):
-            return 3
-        return 2
+            return 2
+        return 1
 
     def get_agents(source, target):
         return G.nodes[source]["agent"][0], G.nodes[target]["agent"][0]
 
+    def format_virus_list(viruses):
+        if not viruses:
+            return "None"
+        return "<br>".join(str(virus) for virus in viruses)
+
     portrayal = {}
     portrayal["nodes"] = [
         {
-            "size": 6,
+            "size": 8,
             "color": node_color(agents[0]),
-            "tooltip": f"id: {agents[0].unique_id}<br>state: {agents[0].user_state.name}",
+            "tooltip": (
+                f"id: {agents[0].unique_id}<br>"
+                f"state: {agents[0].user_state.name} <br>"
+                f"score: {agents[0].score} <br>"
+                f"age_group: {agents[0].age_group.name} <br>"
+                f"gender: {agents[0].gender.name} <br>"
+                f"sexual_preference: {agents[0].sexual_preference.name} <br>"
+                f"pair_type: {agents[0].pair_type.name} <br>"
+                f"system_pairing: {agents[0].system_pairing.name} <br>"
+                f"infections: {format_virus_list(agents[0].infections)}"
+            ),
         }
         for (_, agents) in G.nodes.data("agent")
     ]
@@ -54,8 +69,8 @@ network = mesa.visualization.NetworkModule(
 )
 chart = mesa.visualization.ChartModule(
     [
-        {"Label": "Infected", "Color": "#FF0000"},
-        {"Label": "Susceptible", "Color": "#008000"},
+        {"Label": "Infected", "Color": "#B94848"},
+        {"Label": "Susceptible", "Color": "#0ABFB3"},
         {"Label": "Resistant", "Color": "#808080"},
     ]
 )
@@ -76,57 +91,7 @@ model_params = {
         max_value=100,
         step=1,
         description="Choose how many agents to include in the model",
-    ),
-    "avg_node_degree": mesa.visualization.Slider(
-        name="Avg Node Degree",
-        value=3,
-        min_value=3,
-        max_value=8,
-        step=1,
-        description="Avg Node Degree",
-    ),
-    "initial_outbreak_size": mesa.visualization.Slider(
-        name="Initial Outbreak Size",
-        value=1,
-        min_value=1,
-        max_value=10,
-        step=1,
-        description="Initial Outbreak Size",
-    ),
-    "virus_spread_chance": mesa.visualization.Slider(
-        name="Virus Spread Chance",
-        value=0.4,
-        min_value=0.0,
-        max_value=1.0,
-        step=0.1,
-        description="Probability that susceptible neighbor will be infected",
-    ),
-    "virus_check_frequency": mesa.visualization.Slider(
-        name="Virus Check Frequency",
-        value=0.4,
-        min_value=0.0,
-        max_value=1.0,
-        step=0.1,
-        description="Frequency the nodes check whether they are infected by a virus",
-    ),
-    "recovery_chance": mesa.visualization.Slider(
-        name="Recovery Chance",
-        value=0.3,
-        min_value=0.0,
-        max_value=1.0,
-        step=0.1,
-        description="Probability that the virus will be removed",
-    ),
-    "gain_resistance_chance": mesa.visualization.Slider(
-        name="Gain Resistance Chance",
-        value=0.5,
-        min_value=0.0,
-        max_value=1.0,
-        step=0.1,
-        description="Probability that a recovered agent will become "
-        "resistant to this virus in the future",
-    ),
-}
+    )}
 
 server = mesa.visualization.ModularServer(
     model_cls=SwabberModel,

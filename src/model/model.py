@@ -1,41 +1,55 @@
 import mesa
 import networkx as nx
+import numpy as np
 from sti import Virus, UserAgent
-from impl_config import State, VirusParams, AgeGroup, Gender
+from impl_config import State, VirusParams, AgeGroup, Gender, SexualPreference, PairingType, SystemPairing
+import uuid
 
 class SwabberModel(mesa.Model):
     """
     Swabber Model for the spread of multiple bacteria and viruses on a network.
     Currently only supports one virus.
-    Uses Erdős-Rényi random graph for the network.
+    Uses a custom dynamic network where edges form probabilistically.
     """
 
     def __init__(
         self,
-        num_nodes: int = 10,
-        avg_node_degree: int = 3,
+        num_nodes: int = 20,
         initial_outbreak_size: int = 1,
         virus_spread_chance: float = 0.4,
         virus_check_frequency: float = 0.4,
-        recovery_chance: float = 0.3,
+        recovery_chance: float = 0.,
         gain_resistance_chance: float = 0.5,
     ) -> None:
+        """
+        Create a new Swabber model.
+
+        Args:
+            num_nodes: Number of nodes in the network.
+            avg_node_degree: Average degree of nodes.
+            initial_outbreak_size: Initial number of infected nodes.
+            virus_spread_chance: Probability of virus spreading to a connected node.
+            virus_check_frequency: Frequency of checking for virus spread.
+            recovery_chance: Probability of an infected node recovering.
+            gain_resistance_chance: Probability of gaining resistance after recovery.
+        """
         super().__init__()
         self.num_nodes = num_nodes
-        prob = avg_node_degree / self.num_nodes
+        self.current_step = 0
 
-        # Probability of edge creation is avg_node_degree / num_nodes (3/10 = 0.3).
-        # Erdős-Rényi graph. Random graph with n nodes and probability p for edge creation.
-        self.G = nx.erdos_renyi_graph(n=self.num_nodes, p=prob)
+        # Initialize an empty graph with nodes
+        self.G = nx.Graph()
+        self.G.add_nodes_from(range(self.num_nodes))
+
+        # Initialize the likelihood matrix with values between 0.01 and 0.1
+        self.likelihood_matrix = np.zeros((self.num_nodes, self.num_nodes))
+        for i in range(self.num_nodes):
+            for j in range(i + 1, self.num_nodes):
+                self.likelihood_matrix[i, j] = self.likelihood_matrix[j, i] = 0.001 + (0.01 - 0.001) * np.random.rand()
+
         self.grid = mesa.space.NetworkGrid(self.G)
         self.schedule = mesa.time.RandomActivation(self)
         self.initial_outbreak_size = min(initial_outbreak_size, num_nodes)
-
-        # Virus parameters
-        #self.virus_spread_chance = VirusParams.spread_chance
-        #self.virus_check_frequency = VirusParams.check_frequency
-        #self.recovery_chance = VirusParams.recovery_chance
-        #self.gain_resistance_chance = VirusParams.gain_resistance_chance
 
         self.virus_spread_chance = virus_spread_chance
         self.virus_check_frequency = virus_check_frequency
@@ -51,18 +65,24 @@ class SwabberModel(mesa.Model):
             }
         )
 
+        # Dictionary to track when each edge was created
+        self.edge_creation_times = {}
+        unique_id = uuid.uuid4()
         # Create agents
         for i, node in enumerate(self.G.nodes()):
             agent = UserAgent(
-                unique_id=i,
+                unique_id=unique_id,
                 model=self,
                 age_group=AgeGroup.YOUNG,
                 gender=Gender.MALE,
+                sexual_preference=SexualPreference.HETEROSEXUAL,
+                pair_type=PairingType.SEQUENTIAL,
+                system_pairing=SystemPairing.ON,
+                partner_preference=State.INFECTED,
                 score=700,
                 infections=[],
             )
             self.schedule.add(agent)
-            # Add the agent to the node
             self.grid.place_agent(agent, node)
 
         # Infect some nodes
@@ -102,8 +122,35 @@ class SwabberModel(mesa.Model):
         """Returns the number of resistant agents."""
         return self.number_state(State.RESISTANT)
 
+    def update_edges(self):
+        """Update edges probabilistically based on the likelihood matrix."""
+        triu_indices = np.triu_indices(self.num_nodes, 1)
+        probabilities = self.likelihood_matrix[triu_indices]
+        rand_values = np.random.rand(len(probabilities))
+
+        new_edges = np.where(rand_values < probabilities)
+        edge_list = list(zip(triu_indices[0][new_edges], triu_indices[1][new_edges]))
+
+        edge_list = [(int(u), int(v)) for u, v in edge_list]
+
+        self.G.add_edges_from(edge_list)
+
+        for edge in edge_list:
+            self.edge_creation_times[edge] = self.current_step
+
+        self.likelihood_matrix[triu_indices[0][new_edges], triu_indices[1][new_edges]] = 0
+        self.likelihood_matrix[triu_indices[1][new_edges], triu_indices[0][new_edges]] = 0
+        edges_to_remove = [edge for edge, creation_time in self.edge_creation_times.items()
+                           if self.current_step - creation_time >= 30]
+
+        for edge in edges_to_remove:
+            self.G.remove_edge(*edge)
+            del self.edge_creation_times[edge]
+
     def step(self) -> None:
         """Advance the model by one step."""
+        self.current_step += 1
+        self.update_edges()
         self.schedule.step()
         self.datacollector.collect(self)
 

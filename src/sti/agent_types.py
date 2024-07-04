@@ -1,5 +1,5 @@
 from . import Bacteria, Virus, Parasite, Infection
-from impl_config import State, AgeGroup, Gender
+from impl_config import State, AgeGroup, Gender, SexualPreference, PairingType, SystemPairing
 import mesa
 from typing import List, Optional, Any
 
@@ -14,16 +14,27 @@ class UserAgent(mesa.Agent):
         model: mesa.Model,
         age_group: AgeGroup,
         gender: Gender,
+        sexual_preference: SexualPreference,
+        pair_type: PairingType,
+        system_pairing: SystemPairing,
+        partner_preference: State,
         score : int = 700,
+        number_of_sexual_partners: int = 1,
         infections: Optional[List[Infection]] = None,
     ) -> None:
         
         super().__init__(unique_id, model)
+        self.user_ID = unique_id
         self.infections = infections if infections is not None else []
         self.user_state = self.determine_state()
         self.age_group = age_group
+        self.sexual_preference = sexual_preference
+        self.pair_type = pair_type
+        self.system_pairing = system_pairing
+        self.partner_preference = partner_preference
         self.gender = gender
         self.score = score
+        self.number_of_sexual_partners = number_of_sexual_partners
 
     def __str__(self) -> str:
         return f"UserAgent {self.unique_id}"
