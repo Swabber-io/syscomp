@@ -1,11 +1,7 @@
 {
     "name": "Swabber",
-    "build": {
-        "dockerfile": "../Dockerfile.GPU",
-        "args": {
-            "platform": "linux/amd64"
-        }
-    },
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "swabber_app",
     "customizations": {
         "vscode": {
             "extensions": [
@@ -18,14 +14,5 @@
             ]
         }
     },
-    "workspaceFolder": "/usr/src/swabber",
-    "mounts": [
-        "source=${localWorkspaceFolder},target=/usr/src/swabber,type=bind,consistency=cached"
-    ],
-    "forwardPorts": [8888, 8521],
-    "runArgs": [
-        "--platform", "linux/amd64",
-        "--cap-add=SYS_PTRACE",
-        "--security-opt", "seccomp=unconfined"
-    ]
+    "workspaceFolder": "/usr/src/swabber"
 }

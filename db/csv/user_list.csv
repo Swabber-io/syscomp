@@ -1,0 +1,1001 @@
+agent_id,age,gender,sexual_orientation,last_STI_test_date,STI_status,partnering_type,partner_count,loc,pair_on_system
+3405147,32,M,straight,4/3/2023,negative,sequential,1 to 3,Nevada,TRUE
+56356239,40,F,straight,8/12/2023,negative,concurrent,1 to 3,Arizona,TRUE
+46061543,23,M,straight,9/13/2023,negative,concurrent,11+,District of Columbia,FALSE
+37860816,39,M,straight,11/16/2023,negative,concurrent,1 to 3,Georgia,TRUE
+74875472,31,M,straight,12/10/2023,negative,concurrent,7 to 10,Nevada,TRUE
+80016886,25,F,straight,12/14/2023,negative,sequential,11+,Michigan,FALSE
+94534892,12,F,straight,3/17/2023,negative,concurrent,4 to 6,Minnesota,TRUE
+29335990,22,M,straight,5/5/2023,negative,sequential,11+,New York,FALSE
+36125508,33,M,straight,7/12/2023,negative,concurrent,7 to 10,Georgia,FALSE
+51063096,24,F,bisexual,1/17/2023,negative,sequential,4 to 6,Alabama,TRUE
+74110791,30,M,straight,3/15/2023,negative,concurrent,4 to 6,Massachusetts,TRUE
+39144490,24,F,straight,4/23/2023,negative,concurrent,1 to 3,Indiana,FALSE
+73932693,24,F,straight,9/27/2023,negative,sequential,4 to 6,Georgia,TRUE
+63819256,26,F,bisexual,5/14/2023,negative,sequential,4 to 6,California,FALSE
+42993555,10,M,straight,7/14/2023,negative,concurrent,1 to 3,Colorado,TRUE
+76451893,24,F,straight,3/19/2023,negative,concurrent,4 to 6,North Carolina,FALSE
+31327697,15,F,straight,3/30/2023,positive,concurrent,4 to 6,Missouri,TRUE
+29909045,25,M,gay,9/1/2023,negative,sequential,11+,Virginia,TRUE
+99085943,27,F,straight,1/9/2023,negative,sequential,4 to 6,District of Columbia,FALSE
+25244554,20,F,straight,9/13/2023,positive,sequential,7 to 10,Maryland,FALSE
+47540274,23,M,straight,10/6/2023,negative,concurrent,11+,Texas,TRUE
+3479388,29,M,straight,3/8/2023,negative,concurrent,7 to 10,Pennsylvania,TRUE
+21877789,22,M,straight,7/7/2023,negative,concurrent,7 to 10,Ohio,TRUE
+23050777,28,M,straight,7/15/2023,negative,concurrent,11+,Florida,FALSE
+1537789,30,F,gay,6/21/2023,negative,sequential,11+,New York,FALSE
+84672644,22,F,straight,11/2/2023,negative,sequential,11+,California,TRUE
+75456178,44,F,straight,8/20/2023,positive,sequential,11+,New York,TRUE
+46740451,16,F,straight,7/28/2023,negative,sequential,7 to 10,Oklahoma,FALSE
+56983346,13,F,straight,7/10/2023,negative,concurrent,7 to 10,Texas,FALSE
+54036032,15,F,straight,10/18/2023,positive,sequential,7 to 10,Virginia,TRUE
+64133042,27,F,straight,8/21/2023,positive,sequential,4 to 6,Rhode Island,TRUE
+50770482,29,F,straight,12/12/2023,negative,sequential,4 to 6,California,FALSE
+97136314,28,M,straight,6/23/2023,negative,concurrent,11+,Texas,TRUE
+26757436,37,M,straight,8/19/2023,negative,concurrent,11+,Florida,TRUE
+59184115,29,M,bisexual,3/16/2023,negative,sequential,11+,Illinois,TRUE
+53889997,36,F,gay,5/26/2023,negative,sequential,7 to 10,New York,TRUE
+3498164,35,M,straight,8/26/2023,negative,concurrent,11+,South Carolina,FALSE
+10608356,34,M,straight,4/9/2023,negative,concurrent,11+,California,FALSE
+32660053,35,F,straight,11/24/2023,positive,sequential,1 to 3,Florida,FALSE
+65531901,28,F,gay,4/3/2023,negative,sequential,4 to 6,Texas,FALSE
+4262027,27,F,gay,3/26/2023,negative,concurrent,7 to 10,Illinois,TRUE
+22088537,34,F,straight,7/26/2023,negative,sequential,1 to 3,Arizona,TRUE
+51790795,21,M,straight,7/11/2023,negative,concurrent,11+,Missouri,TRUE
+5920400,23,F,straight,7/21/2023,positive,concurrent,4 to 6,New York,TRUE
+61200620,27,F,straight,1/2/2023,negative,sequential,4 to 6,California,TRUE
+62707099,16,M,bisexual,11/29/2023,positive,sequential,7 to 10,Nevada,FALSE
+67283135,24,F,straight,7/5/2023,positive,sequential,4 to 6,Nebraska,FALSE
+89013255,50,M,straight,1/24/2023,negative,concurrent,11+,Virginia,TRUE
+28423643,27,F,straight,5/19/2023,negative,concurrent,4 to 6,Florida,TRUE
+6555743,32,F,straight,2/21/2023,negative,concurrent,4 to 6,Kentucky,FALSE
+94615243,20,F,straight,5/10/2023,negative,concurrent,1 to 3,California,TRUE
+3084784,34,M,straight,8/14/2023,negative,sequential,4 to 6,South Carolina,FALSE
+80144059,43,F,straight,2/9/2023,negative,concurrent,11+,Oregon,TRUE
+63894084,19,F,straight,1/21/2023,negative,concurrent,11+,Massachusetts,FALSE
+37812859,23,F,straight,6/9/2023,negative,concurrent,4 to 6,New Jersey,FALSE
+2589707,38,F,bisexual,5/21/2023,negative,concurrent,7 to 10,California,FALSE
+33235581,30,F,straight,8/21/2023,negative,concurrent,7 to 10,New York,FALSE
+1143781,31,F,straight,1/20/2023,negative,concurrent,4 to 6,Utah,TRUE
+59592238,25,F,bisexual,8/31/2023,positive,concurrent,1 to 3,Illinois,FALSE
+84776880,17,M,straight,7/1/2023,positive,sequential,7 to 10,Florida,FALSE
+74199110,37,F,straight,6/3/2023,negative,concurrent,4 to 6,South Carolina,FALSE
+54890205,37,F,straight,8/1/2023,positive,concurrent,4 to 6,California,TRUE
+14895949,19,M,straight,4/20/2023,positive,concurrent,7 to 10,Texas,FALSE
+31961749,20,F,straight,1/10/2023,negative,sequential,4 to 6,Iowa,FALSE
+16804192,36,F,straight,5/9/2023,negative,sequential,7 to 10,California,TRUE
+95697400,32,F,bisexual,12/10/2023,negative,concurrent,11+,Iowa,FALSE
+84665752,27,M,straight,4/25/2023,negative,sequential,1 to 3,Colorado,TRUE
+29509716,26,M,straight,6/3/2023,negative,concurrent,11+,New York,FALSE
+18164580,31,F,straight,8/15/2023,negative,sequential,1 to 3,Illinois,FALSE
+17828790,20,F,gay,9/12/2023,negative,concurrent,7 to 10,Missouri,FALSE
+13018031,30,M,straight,12/16/2023,positive,concurrent,7 to 10,Illinois,TRUE
+72181262,30,F,straight,11/3/2023,negative,concurrent,7 to 10,Ohio,TRUE
+4900251,23,F,straight,2/16/2023,positive,sequential,7 to 10,Michigan,FALSE
+60501347,28,M,straight,12/7/2023,negative,sequential,4 to 6,Texas,TRUE
+9609572,36,F,straight,10/5/2023,negative,sequential,1 to 3,New York,TRUE
+17127180,28,F,straight,3/25/2023,negative,concurrent,7 to 10,Ohio,FALSE
+87463456,24,F,straight,4/7/2023,negative,concurrent,11+,Indiana,FALSE
+55000149,22,F,bisexual,8/29/2023,positive,concurrent,4 to 6,Florida,FALSE
+38063207,54,F,straight,11/17/2023,negative,concurrent,1 to 3,Arkansas,FALSE
+70868529,36,M,straight,12/11/2023,negative,concurrent,4 to 6,Texas,TRUE
+1778285,33,F,straight,12/8/2023,negative,sequential,4 to 6,California,FALSE
+68167728,29,F,straight,7/22/2023,negative,sequential,4 to 6,Florida,TRUE
+10306592,36,M,straight,8/6/2023,negative,sequential,4 to 6,Michigan,TRUE
+96257013,21,M,straight,3/11/2023,positive,concurrent,1 to 3,Illinois,TRUE
+17787383,34,F,straight,2/10/2023,negative,concurrent,4 to 6,North Carolina,TRUE
+7902682,14,M,straight,9/15/2023,negative,sequential,11+,Ohio,TRUE
+95375838,48,M,straight,8/1/2023,negative,concurrent,4 to 6,Texas,FALSE
+48370266,20,F,straight,6/11/2023,negative,sequential,4 to 6,Georgia,FALSE
+29193280,9,F,straight,7/20/2023,positive,concurrent,4 to 6,Idaho,TRUE
+21363540,20,M,straight,11/17/2023,negative,concurrent,1 to 3,Washington,FALSE
+80685859,40,F,bisexual,6/9/2023,negative,sequential,4 to 6,West Virginia,TRUE
+88128916,34,M,bisexual,12/18/2023,positive,concurrent,1 to 3,California,TRUE
+53402810,31,M,straight,11/15/2023,positive,concurrent,11+,Connecticut,TRUE
+36953589,32,F,straight,9/11/2023,negative,concurrent,4 to 6,Florida,TRUE
+16971207,24,F,gay,1/31/2023,positive,concurrent,11+,Pennsylvania,FALSE
+46381430,21,F,gay,8/19/2023,positive,sequential,4 to 6,California,TRUE
+28189402,51,F,straight,9/30/2023,negative,sequential,1 to 3,California,TRUE
+97025217,35,M,straight,8/17/2023,positive,sequential,1 to 3,Montana,FALSE
+69625494,30,M,straight,4/14/2023,negative,concurrent,11+,Iowa,TRUE
+63543295,34,F,straight,7/2/2023,negative,concurrent,1 to 3,Georgia,FALSE
+21203302,24,M,bisexual,2/3/2023,positive,concurrent,11+,North Carolina,FALSE
+34720547,24,F,lesbian,8/8/2023,negative,sequential,11+,Delaware,FALSE
+26651894,28,F,straight,1/19/2023,positive,concurrent,7 to 10,California,TRUE
+60239366,33,M,straight,6/29/2023,negative,concurrent,11+,South Dakota,FALSE
+82685878,44,F,straight,3/20/2023,negative,sequential,1 to 3,Illinois,TRUE
+98881160,24,M,straight,2/26/2023,negative,sequential,1 to 3,Ohio,FALSE
+45957738,43,F,bisexual,4/20/2023,negative,sequential,7 to 10,Georgia,TRUE
+51693374,28,F,straight,2/14/2023,negative,sequential,1 to 3,Alabama,TRUE
+45897330,20,M,straight,6/6/2023,negative,concurrent,7 to 10,Texas,TRUE
+16976918,23,F,straight,1/28/2023,positive,sequential,4 to 6,Pennsylvania,TRUE
+13887978,28,M,straight,11/18/2023,positive,concurrent,1 to 3,Alabama,TRUE
+80273904,14,M,gay,12/26/2023,positive,sequential,11+,District of Columbia,FALSE
+11070612,35,F,straight,12/29/2023,negative,sequential,11+,Texas,FALSE
+15093535,46,F,straight,8/15/2023,negative,sequential,1 to 3,California,FALSE
+10232889,26,M,straight,9/18/2023,positive,sequential,7 to 10,Michigan,TRUE
+47314956,22,F,lesbian,7/16/2023,negative,concurrent,11+,Alabama,TRUE
+28480286,30,M,lesbian,11/3/2023,negative,sequential,11+,Alaska,TRUE
+10243848,51,F,straight,4/13/2023,positive,sequential,11+,New York,TRUE
+47697095,35,M,straight,10/2/2023,positive,concurrent,7 to 10,Virginia,FALSE
+50620064,37,M,straight,5/23/2023,negative,sequential,4 to 6,Michigan,FALSE
+83554190,27,F,straight,1/2/2023,positive,sequential,11+,Iowa,FALSE
+26588680,18,M,straight,1/30/2023,positive,sequential,4 to 6,Florida,FALSE
+14178428,36,M,straight,3/28/2023,negative,sequential,7 to 10,Florida,FALSE
+61876106,17,M,gay,2/1/2023,negative,concurrent,11+,Alabama,FALSE
+48248984,23,M,straight,7/23/2023,negative,sequential,1 to 3,Florida,FALSE
+74589150,15,F,bisexual,9/13/2023,negative,sequential,11+,California,FALSE
+68771473,28,F,straight,12/26/2023,negative,concurrent,11+,Florida,TRUE
+24396741,38,M,straight,11/11/2023,negative,concurrent,7 to 10,North Carolina,TRUE
+21613797,12,M,straight,10/19/2023,positive,sequential,4 to 6,Texas,FALSE
+64830603,28,F,straight,7/15/2023,negative,concurrent,7 to 10,Indiana,FALSE
+65338335,15,F,gay,3/3/2023,negative,sequential,11+,Nevada,FALSE
+46733312,28,F,straight,1/15/2023,negative,concurrent,11+,Pennsylvania,TRUE
+34420240,31,M,straight,7/31/2023,negative,concurrent,4 to 6,Ohio,TRUE
+14841616,26,M,straight,11/5/2023,negative,sequential,4 to 6,Michigan,FALSE
+92544252,30,M,straight,6/18/2023,negative,sequential,11+,Texas,TRUE
+34494189,23,F,straight,8/1/2023,negative,sequential,11+,Florida,TRUE
+12864665,23,M,lesbian,6/6/2023,negative,concurrent,1 to 3,Pennsylvania,TRUE
+88076175,21,F,straight,10/26/2023,positive,concurrent,11+,Texas,TRUE
+13441211,47,F,gay,11/2/2023,positive,concurrent,1 to 3,Alabama,TRUE
+57137549,34,M,straight,4/13/2023,negative,concurrent,1 to 3,California,TRUE
+98653255,44,F,lesbian,5/23/2023,negative,sequential,7 to 10,Indiana,FALSE
+19072906,10,M,straight,9/4/2023,negative,concurrent,11+,North Carolina,FALSE
+47528723,33,M,straight,6/11/2023,negative,sequential,11+,California,TRUE
+24374490,14,F,straight,11/20/2023,negative,concurrent,11+,Iowa,FALSE
+76539427,26,F,straight,7/6/2023,negative,sequential,11+,Alabama,TRUE
+91853555,28,F,straight,4/13/2023,positive,sequential,7 to 10,Texas,FALSE
+82710405,26,F,straight,12/30/2023,positive,sequential,4 to 6,Indiana,FALSE
+16276874,42,F,straight,4/26/2023,negative,sequential,4 to 6,Texas,TRUE
+32775922,35,F,straight,8/5/2023,negative,sequential,7 to 10,Maryland,TRUE
+39323430,33,M,bisexual,10/16/2023,negative,sequential,1 to 3,Virginia,FALSE
+20942626,32,M,straight,8/10/2023,positive,sequential,4 to 6,Florida,TRUE
+89817915,48,F,straight,12/7/2023,negative,concurrent,4 to 6,Indiana,TRUE
+13525127,40,F,straight,6/5/2023,negative,sequential,11+,Colorado,TRUE
+82273177,26,M,straight,1/9/2023,positive,concurrent,1 to 3,California,TRUE
+77157276,19,F,straight,3/4/2023,negative,sequential,1 to 3,Texas,TRUE
+47597852,20,M,straight,9/12/2023,negative,concurrent,7 to 10,Connecticut,FALSE
+35487610,14,M,straight,4/1/2023,negative,sequential,1 to 3,New York,FALSE
+40123755,22,M,straight,10/9/2023,negative,sequential,1 to 3,New York,TRUE
+35644176,21,F,straight,4/18/2023,negative,concurrent,4 to 6,Missouri,TRUE
+37183997,41,M,straight,8/18/2023,negative,concurrent,11+,Pennsylvania,TRUE
+63098886,56,F,straight,2/24/2023,negative,concurrent,7 to 10,Florida,FALSE
+60460209,44,M,bisexual,3/21/2023,negative,sequential,11+,Texas,TRUE
+3219295,19,F,straight,6/25/2023,negative,sequential,4 to 6,California,TRUE
+52134635,37,M,straight,8/13/2023,negative,concurrent,7 to 10,Ohio,FALSE
+85750754,23,M,straight,9/14/2023,negative,sequential,11+,Texas,TRUE
+35644855,23,F,straight,8/29/2023,negative,sequential,1 to 3,Texas,FALSE
+63524477,31,M,gay,1/25/2023,negative,concurrent,7 to 10,District of Columbia,FALSE
+97918083,24,M,straight,4/30/2023,negative,sequential,4 to 6,Illinois,FALSE
+40833858,34,M,straight,3/7/2023,negative,sequential,1 to 3,Connecticut,TRUE
+66210272,41,M,straight,9/23/2023,positive,sequential,4 to 6,Pennsylvania,TRUE
+66289053,20,F,gay,6/24/2023,negative,concurrent,1 to 3,Virginia,TRUE
+6768878,44,M,bisexual,3/28/2023,negative,concurrent,11+,Florida,FALSE
+99287825,29,F,gay,5/25/2023,negative,sequential,4 to 6,Massachusetts,TRUE
+3625804,46,M,straight,11/5/2023,negative,concurrent,4 to 6,Kentucky,TRUE
+73526341,38,M,straight,4/3/2023,negative,sequential,11+,Michigan,TRUE
+73242621,40,F,straight,5/2/2023,negative,concurrent,1 to 3,Colorado,FALSE
+83062633,29,F,straight,10/14/2023,negative,concurrent,7 to 10,Texas,TRUE
+94370211,26,F,straight,7/27/2023,negative,sequential,4 to 6,Tennessee,FALSE
+36813206,28,F,bisexual,12/27/2023,positive,concurrent,7 to 10,Missouri,TRUE
+72344608,26,M,gay,11/18/2023,negative,concurrent,4 to 6,Texas,FALSE
+70464876,29,M,straight,3/17/2023,negative,sequential,1 to 3,Utah,TRUE
+59636388,49,M,straight,12/12/2023,negative,sequential,1 to 3,Kansas,FALSE
+79248120,16,F,straight,7/5/2023,positive,concurrent,4 to 6,California,TRUE
+66477174,13,M,straight,4/11/2023,negative,concurrent,7 to 10,New Mexico,TRUE
+81752853,1,F,straight,6/17/2023,negative,concurrent,11+,Michigan,FALSE
+25579913,22,M,straight,10/28/2023,positive,concurrent,11+,Pennsylvania,TRUE
+23177711,37,F,straight,7/26/2023,negative,concurrent,1 to 3,Virginia,TRUE
+67872303,32,M,straight,3/31/2023,positive,concurrent,11+,Minnesota,FALSE
+4319846,17,F,straight,1/19/2023,positive,sequential,11+,Virginia,TRUE
+79083566,34,M,straight,8/25/2023,positive,sequential,1 to 3,Texas,FALSE
+49546898,18,F,straight,10/29/2023,negative,concurrent,7 to 10,California,TRUE
+1641508,38,F,straight,6/23/2023,positive,sequential,11+,Maryland,TRUE
+10777315,42,F,straight,6/8/2023,negative,sequential,11+,Pennsylvania,FALSE
+52618147,20,M,straight,1/16/2023,positive,sequential,4 to 6,New York,TRUE
+2404367,26,M,straight,8/24/2023,negative,sequential,11+,Alabama,FALSE
+55277608,21,F,straight,4/2/2023,negative,sequential,11+,District of Columbia,FALSE
+54252119,19,F,straight,9/25/2023,negative,sequential,11+,Pennsylvania,TRUE
+9569721,22,F,straight,6/12/2023,positive,concurrent,4 to 6,California,TRUE
+149679,28,F,straight,1/3/2023,positive,concurrent,11+,Florida,FALSE
+97769439,36,F,straight,1/12/2023,negative,concurrent,4 to 6,Tennessee,TRUE
+13124959,16,F,straight,2/26/2023,positive,sequential,4 to 6,Arizona,FALSE
+76687410,22,F,gay,9/12/2023,positive,sequential,7 to 10,New York,TRUE
+40603608,40,F,straight,3/24/2023,negative,concurrent,11+,Alabama,FALSE
+74693056,42,F,straight,2/16/2023,negative,concurrent,7 to 10,Texas,TRUE
+27678996,22,F,straight,8/6/2023,negative,sequential,1 to 3,Virginia,TRUE
+43267588,47,M,straight,1/30/2023,negative,concurrent,4 to 6,Virginia,TRUE
+68863861,25,M,straight,12/19/2023,negative,concurrent,11+,New York,FALSE
+5824337,23,M,gay,6/17/2023,negative,sequential,11+,Pennsylvania,FALSE
+23491196,24,F,straight,9/24/2023,negative,sequential,1 to 3,Connecticut,FALSE
+80793504,41,M,straight,2/12/2023,positive,concurrent,1 to 3,Texas,FALSE
+14254661,29,F,gay,7/31/2023,negative,concurrent,11+,California,FALSE
+19195751,45,M,straight,5/21/2023,negative,sequential,7 to 10,District of Columbia,TRUE
+8870480,31,M,straight,4/21/2023,positive,sequential,11+,Florida,FALSE
+52258153,12,F,bisexual,12/15/2023,negative,concurrent,11+,Minnesota,FALSE
+73349646,22,F,straight,4/1/2023,negative,sequential,1 to 3,Alabama,FALSE
+99531546,34,M,straight,9/26/2023,negative,sequential,4 to 6,Tennessee,FALSE
+58766695,23,F,straight,9/29/2023,negative,concurrent,4 to 6,Massachusetts,FALSE
+58119534,28,M,straight,9/27/2023,negative,concurrent,11+,Colorado,FALSE
+96784328,24,F,bisexual,1/1/2023,negative,concurrent,11+,Massachusetts,TRUE
+43963873,24,F,straight,1/4/2023,negative,concurrent,4 to 6,Washington,TRUE
+51302859,23,M,straight,5/2/2023,positive,concurrent,7 to 10,Oklahoma,TRUE
+62888205,31,M,straight,6/9/2023,positive,concurrent,11+,Texas,FALSE
+48708472,22,M,straight,1/19/2023,negative,concurrent,7 to 10,North Carolina,FALSE
+35708840,17,M,straight,3/31/2023,negative,sequential,4 to 6,Texas,FALSE
+58019814,39,F,gay,3/28/2023,negative,concurrent,11+,Florida,TRUE
+27154466,37,F,straight,6/3/2023,negative,concurrent,4 to 6,California,TRUE
+45982122,19,F,straight,10/4/2023,negative,sequential,7 to 10,Kentucky,TRUE
+92182734,24,M,straight,6/1/2023,positive,concurrent,1 to 3,Texas,TRUE
+77160287,31,M,straight,5/27/2023,positive,concurrent,4 to 6,Texas,FALSE
+36541651,15,F,straight,12/12/2023,negative,sequential,1 to 3,Virginia,FALSE
+73498383,48,F,straight,3/26/2023,positive,concurrent,1 to 3,District of Columbia,TRUE
+10080646,20,F,bisexual,8/2/2023,positive,sequential,4 to 6,Texas,TRUE
+77961717,17,M,straight,11/5/2023,negative,concurrent,4 to 6,Florida,FALSE
+88688093,44,F,straight,2/18/2023,positive,concurrent,11+,Florida,FALSE
+66141500,32,M,straight,7/3/2023,negative,sequential,1 to 3,Indiana,TRUE
+79368921,43,F,straight,6/22/2023,positive,concurrent,4 to 6,Arizona,FALSE
+98907093,34,F,straight,6/28/2023,negative,sequential,4 to 6,Illinois,FALSE
+7495520,19,F,straight,6/6/2023,negative,sequential,11+,Pennsylvania,FALSE
+53102577,33,F,straight,12/5/2023,negative,concurrent,1 to 3,California,TRUE
+12607637,27,M,gay,3/21/2023,negative,concurrent,7 to 10,Florida,FALSE
+15969785,19,M,straight,5/9/2023,negative,concurrent,4 to 6,Texas,TRUE
+85208782,25,F,bisexual,12/19/2023,negative,concurrent,7 to 10,California,FALSE
+5814780,32,M,straight,4/14/2023,negative,sequential,11+,Virginia,TRUE
+63311833,27,M,straight,7/31/2023,positive,sequential,7 to 10,Florida,FALSE
+73079994,31,F,straight,5/17/2023,negative,sequential,1 to 3,Connecticut,TRUE
+87588853,48,F,straight,12/6/2023,positive,sequential,11+,West Virginia,FALSE
+9532382,32,F,straight,1/28/2023,positive,concurrent,11+,Pennsylvania,TRUE
+20678848,30,F,lesbian,6/7/2023,negative,concurrent,11+,Texas,TRUE
+31115432,40,F,straight,1/26/2023,negative,sequential,7 to 10,North Carolina,TRUE
+53784910,20,F,straight,3/8/2023,negative,concurrent,1 to 3,District of Columbia,TRUE
+33096053,40,F,straight,5/2/2023,positive,concurrent,7 to 10,Nebraska,FALSE
+14378981,29,M,straight,8/3/2023,positive,concurrent,4 to 6,Connecticut,FALSE
+46901419,11,F,bisexual,7/6/2023,negative,concurrent,7 to 10,Florida,FALSE
+11771598,25,F,bisexual,3/17/2023,negative,concurrent,11+,Georgia,TRUE
+41651881,14,M,straight,5/4/2023,negative,concurrent,11+,Pennsylvania,FALSE
+62716191,35,M,straight,3/6/2023,negative,sequential,1 to 3,Pennsylvania,FALSE
+85732089,42,F,gay,1/19/2023,negative,concurrent,4 to 6,Texas,FALSE
+7948049,19,M,straight,2/2/2023,negative,sequential,7 to 10,Massachusetts,FALSE
+87144341,34,F,straight,7/16/2023,negative,concurrent,7 to 10,Iowa,TRUE
+18706436,48,F,straight,11/11/2023,negative,concurrent,11+,Wisconsin,TRUE
+23393281,48,M,straight,10/25/2023,negative,sequential,7 to 10,Florida,FALSE
+12199505,36,F,straight,2/8/2023,negative,concurrent,4 to 6,New York,TRUE
+21863969,25,M,straight,10/22/2023,negative,concurrent,1 to 3,Florida,FALSE
+32242914,44,M,straight,7/30/2023,negative,concurrent,1 to 3,Arizona,TRUE
+72588119,24,F,straight,5/3/2023,positive,concurrent,4 to 6,North Carolina,FALSE
+44942113,33,F,straight,3/19/2023,negative,sequential,4 to 6,Colorado,TRUE
+29024949,17,F,straight,2/22/2023,positive,sequential,11+,Texas,TRUE
+15145573,36,F,straight,2/5/2023,negative,sequential,4 to 6,Texas,FALSE
+59122771,28,F,straight,1/9/2023,negative,sequential,7 to 10,California,FALSE
+49567128,30,M,straight,5/19/2023,positive,concurrent,11+,Florida,TRUE
+58963891,33,M,straight,1/3/2023,positive,concurrent,11+,Georgia,FALSE
+47776277,14,M,straight,2/8/2023,negative,sequential,7 to 10,Oklahoma,TRUE
+98680841,28,M,straight,1/24/2023,negative,sequential,7 to 10,Oregon,TRUE
+37428672,15,F,straight,10/6/2023,negative,concurrent,1 to 3,Texas,TRUE
+22596738,28,M,straight,1/14/2023,positive,concurrent,4 to 6,Texas,TRUE
+20069299,20,F,straight,11/26/2023,positive,concurrent,11+,Florida,FALSE
+50476813,27,F,lesbian,8/19/2023,negative,sequential,11+,Florida,TRUE
+23095518,18,F,straight,11/7/2023,negative,concurrent,7 to 10,New York,TRUE
+94081280,21,M,straight,2/21/2023,positive,sequential,4 to 6,California,TRUE
+1078046,25,F,lesbian,10/4/2023,negative,concurrent,11+,Texas,TRUE
+74983527,27,M,bisexual,9/4/2023,negative,sequential,4 to 6,Tennessee,FALSE
+80037723,57,M,straight,12/28/2023,negative,sequential,4 to 6,North Carolina,TRUE
+26861675,39,F,lesbian,4/27/2023,negative,concurrent,11+,Indiana,FALSE
+14321899,21,F,straight,2/18/2023,positive,concurrent,4 to 6,California,TRUE
+83213726,38,M,straight,5/11/2023,negative,concurrent,7 to 10,California,TRUE
+65073956,20,M,straight,1/12/2023,negative,concurrent,7 to 10,Maryland,FALSE
+14903746,29,M,bisexual,2/27/2023,negative,sequential,11+,Florida,TRUE
+26473479,36,F,straight,12/29/2023,positive,concurrent,4 to 6,Nevada,TRUE
+41535678,43,M,straight,11/19/2023,positive,sequential,4 to 6,Iowa,TRUE
+92237155,22,M,straight,4/24/2023,positive,concurrent,4 to 6,Texas,FALSE
+81541095,38,F,straight,3/25/2023,negative,sequential,4 to 6,Oklahoma,FALSE
+64446260,27,M,straight,4/17/2023,positive,sequential,1 to 3,Ohio,FALSE
+34017048,33,F,straight,12/5/2023,negative,sequential,7 to 10,Florida,TRUE
+21743757,44,M,straight,4/28/2023,negative,concurrent,1 to 3,Illinois,FALSE
+33242306,37,F,straight,4/25/2023,positive,concurrent,4 to 6,Tennessee,FALSE
+66888371,53,F,straight,4/27/2023,negative,concurrent,4 to 6,Virginia,TRUE
+34916271,18,F,straight,11/30/2023,negative,concurrent,7 to 10,Texas,TRUE
+78563150,30,M,straight,5/4/2023,negative,concurrent,4 to 6,California,TRUE
+44947850,33,M,straight,11/4/2023,negative,sequential,7 to 10,Pennsylvania,FALSE
+76263302,35,M,straight,7/13/2023,negative,concurrent,4 to 6,Washington,FALSE
+7387650,35,F,straight,10/6/2023,negative,sequential,11+,Florida,TRUE
+5857941,15,F,straight,1/30/2023,negative,sequential,11+,Minnesota,TRUE
+86886696,20,M,straight,8/6/2023,negative,concurrent,4 to 6,Tennessee,TRUE
+27866223,42,M,straight,3/1/2023,negative,sequential,7 to 10,Florida,TRUE
+76561143,17,M,straight,11/11/2023,negative,sequential,4 to 6,Florida,TRUE
+51212262,33,M,lesbian,9/13/2023,negative,concurrent,1 to 3,Kentucky,FALSE
+12366903,30,F,straight,4/6/2023,positive,concurrent,11+,Florida,FALSE
+46032666,54,M,bisexual,3/31/2023,negative,sequential,4 to 6,Florida,TRUE
+48746518,33,F,straight,6/19/2023,negative,sequential,7 to 10,California,TRUE
+71604626,37,M,straight,1/24/2023,negative,sequential,4 to 6,Pennsylvania,FALSE
+50540407,2,M,straight,7/6/2023,negative,concurrent,7 to 10,California,FALSE
+53374420,14,M,straight,11/16/2023,negative,sequential,4 to 6,Oregon,TRUE
+24813773,22,M,lesbian,1/2/2023,negative,concurrent,4 to 6,Oklahoma,FALSE
+55459139,18,F,bisexual,6/1/2023,negative,sequential,4 to 6,Illinois,FALSE
+53160294,25,F,lesbian,4/10/2023,negative,sequential,1 to 3,California,FALSE
+54429128,30,M,straight,8/18/2023,negative,concurrent,1 to 3,Illinois,TRUE
+49912267,32,F,straight,7/16/2023,negative,sequential,7 to 10,New York,FALSE
+76062601,33,F,straight,1/23/2023,negative,concurrent,1 to 3,Maryland,FALSE
+12532916,26,F,straight,1/28/2023,negative,concurrent,1 to 3,Ohio,FALSE
+922041,24,M,bisexual,3/30/2023,negative,sequential,4 to 6,Kansas,FALSE
+1429808,43,F,lesbian,12/27/2023,negative,concurrent,11+,Michigan,TRUE
+43423602,30,F,straight,9/15/2023,negative,concurrent,1 to 3,Louisiana,TRUE
+71018128,36,F,straight,6/28/2023,negative,concurrent,11+,South Dakota,FALSE
+37295019,41,M,gay,6/28/2023,positive,concurrent,1 to 3,Washington,FALSE
+68160908,7,F,straight,5/25/2023,negative,sequential,11+,California,TRUE
+71957201,36,M,straight,11/13/2023,negative,concurrent,4 to 6,California,FALSE
+10304870,40,F,straight,9/15/2023,positive,concurrent,4 to 6,District of Columbia,FALSE
+17740305,15,M,straight,10/12/2023,positive,sequential,7 to 10,Texas,FALSE
+86001506,41,F,straight,6/20/2023,negative,concurrent,1 to 3,New York,FALSE
+40770507,26,F,gay,6/21/2023,negative,concurrent,7 to 10,Oklahoma,FALSE
+35500356,27,F,straight,11/23/2023,positive,concurrent,4 to 6,Washington,TRUE
+9349193,36,M,straight,5/17/2023,negative,sequential,7 to 10,Delaware,TRUE
+57472433,26,M,straight,10/9/2023,negative,sequential,1 to 3,Kansas,TRUE
+82971206,40,F,straight,8/28/2023,positive,sequential,4 to 6,Virginia,FALSE
+64976499,18,F,straight,6/15/2023,negative,concurrent,1 to 3,Ohio,FALSE
+32385811,41,F,bisexual,1/17/2023,negative,sequential,7 to 10,New York,TRUE
+52966476,8,M,straight,6/8/2023,negative,concurrent,7 to 10,California,TRUE
+1660708,27,M,straight,12/17/2023,negative,sequential,11+,Florida,TRUE
+7515599,21,M,straight,3/3/2023,negative,concurrent,4 to 6,New York,FALSE
+57047518,29,F,straight,8/2/2023,negative,sequential,1 to 3,Alabama,TRUE
+98923201,17,F,straight,5/30/2023,negative,sequential,7 to 10,New Jersey,TRUE
+6083502,35,F,bisexual,7/31/2023,negative,sequential,4 to 6,Florida,TRUE
+59692687,28,F,straight,9/19/2023,negative,concurrent,11+,Michigan,FALSE
+14050586,48,F,straight,12/14/2023,negative,sequential,7 to 10,Michigan,FALSE
+73874089,18,F,straight,9/21/2023,negative,sequential,7 to 10,Texas,TRUE
+73273606,34,M,gay,11/19/2023,negative,sequential,11+,Illinois,FALSE
+56555714,26,M,straight,7/4/2023,positive,sequential,7 to 10,Texas,TRUE
+38649941,41,F,straight,9/16/2023,negative,concurrent,7 to 10,Colorado,FALSE
+26026870,13,F,straight,6/12/2023,negative,concurrent,1 to 3,Pennsylvania,FALSE
+64983375,28,F,straight,8/11/2023,negative,sequential,11+,Pennsylvania,TRUE
+65295961,26,F,lesbian,9/21/2023,negative,sequential,4 to 6,South Carolina,TRUE
+91371937,40,F,straight,11/10/2023,negative,sequential,11+,Oklahoma,TRUE
+67946690,21,F,straight,11/29/2023,negative,concurrent,7 to 10,New Hampshire,TRUE
+23051798,9,F,straight,5/6/2023,negative,sequential,11+,California,TRUE
+75307410,46,M,straight,7/21/2023,negative,sequential,11+,District of Columbia,TRUE
+9909318,35,F,straight,4/18/2023,negative,sequential,4 to 6,Arkansas,FALSE
+4410832,30,F,straight,9/26/2023,negative,sequential,7 to 10,Texas,TRUE
+21388681,22,F,straight,10/15/2023,negative,concurrent,11+,New York,FALSE
+82774908,31,F,straight,1/26/2023,negative,sequential,4 to 6,Indiana,FALSE
+72682183,34,F,straight,1/8/2023,negative,concurrent,4 to 6,Pennsylvania,TRUE
+56306274,50,F,straight,12/13/2023,negative,sequential,1 to 3,California,TRUE
+23104176,28,F,straight,12/27/2023,negative,sequential,4 to 6,California,TRUE
+82053899,52,M,straight,12/16/2023,negative,concurrent,4 to 6,Illinois,FALSE
+43184816,21,F,bisexual,10/20/2023,negative,concurrent,7 to 10,Texas,TRUE
+35177206,39,F,gay,10/17/2023,negative,sequential,7 to 10,California,TRUE
+34393788,36,F,straight,3/2/2023,negative,sequential,1 to 3,Oklahoma,TRUE
+37494644,14,M,straight,8/20/2023,positive,sequential,7 to 10,Virginia,FALSE
+45127709,42,M,straight,8/23/2023,negative,concurrent,4 to 6,New York,FALSE
+45371252,13,F,straight,2/4/2023,negative,concurrent,1 to 3,Colorado,TRUE
+82313769,16,M,straight,10/23/2023,negative,sequential,4 to 6,Virginia,FALSE
+93155526,18,F,straight,8/25/2023,negative,sequential,7 to 10,Alaska,TRUE
+40592261,15,F,straight,9/19/2023,positive,sequential,4 to 6,California,TRUE
+82223068,15,M,straight,2/2/2023,negative,concurrent,4 to 6,Illinois,FALSE
+24118440,23,F,straight,2/22/2023,negative,concurrent,11+,California,FALSE
+99816833,33,F,straight,8/26/2023,negative,concurrent,11+,Florida,TRUE
+58115388,39,M,straight,6/4/2023,negative,concurrent,1 to 3,California,TRUE
+17399266,26,F,lesbian,8/20/2023,negative,sequential,1 to 3,Virginia,TRUE
+10953887,39,M,lesbian,8/7/2023,negative,sequential,11+,Utah,TRUE
+87290248,38,M,straight,11/1/2023,negative,concurrent,7 to 10,New York,TRUE
+26046903,42,M,straight,6/4/2023,negative,concurrent,7 to 10,California,FALSE
+87766762,29,F,straight,7/23/2023,positive,concurrent,7 to 10,California,FALSE
+21514524,27,F,straight,3/12/2023,negative,concurrent,7 to 10,Texas,TRUE
+37583067,28,F,straight,6/20/2023,negative,concurrent,11+,Ohio,FALSE
+24886072,23,F,straight,10/17/2023,negative,concurrent,7 to 10,Oklahoma,FALSE
+5329437,18,M,straight,1/14/2023,negative,sequential,11+,New York,TRUE
+93321558,39,M,straight,4/3/2023,negative,sequential,4 to 6,California,TRUE
+38900086,32,F,straight,8/9/2023,negative,sequential,7 to 10,Tennessee,TRUE
+31602280,24,F,straight,7/1/2023,negative,concurrent,4 to 6,Virginia,TRUE
+37966881,41,F,straight,10/12/2023,negative,sequential,1 to 3,Virginia,TRUE
+58113972,46,F,straight,6/9/2023,negative,concurrent,1 to 3,Utah,FALSE
+52039713,33,M,straight,3/30/2023,negative,concurrent,4 to 6,Florida,TRUE
+99364875,21,F,bisexual,12/13/2023,negative,concurrent,7 to 10,Texas,FALSE
+36496055,40,M,straight,7/10/2023,negative,concurrent,11+,Kentucky,FALSE
+37230007,22,F,straight,12/18/2023,negative,sequential,4 to 6,Texas,FALSE
+47299042,35,M,straight,6/16/2023,negative,sequential,4 to 6,Ohio,TRUE
+3555599,20,F,straight,4/17/2023,negative,concurrent,4 to 6,Florida,FALSE
+80709540,28,F,straight,2/7/2023,positive,concurrent,7 to 10,South Carolina,TRUE
+38056888,23,F,straight,5/2/2023,negative,concurrent,1 to 3,Illinois,FALSE
+99182473,28,M,gay,11/9/2023,negative,concurrent,1 to 3,Pennsylvania,FALSE
+22384737,24,F,bisexual,7/13/2023,negative,concurrent,7 to 10,Alabama,FALSE
+92553647,44,F,bisexual,12/24/2023,negative,concurrent,4 to 6,Florida,FALSE
+34620362,28,F,bisexual,3/31/2023,negative,sequential,1 to 3,Georgia,FALSE
+60307368,32,F,straight,8/15/2023,negative,concurrent,11+,Kentucky,TRUE
+63336167,21,F,gay,4/10/2023,negative,concurrent,7 to 10,Maryland,TRUE
+78912269,18,M,straight,6/8/2023,positive,sequential,11+,Nebraska,TRUE
+7240101,33,F,lesbian,8/12/2023,negative,sequential,11+,Tennessee,FALSE
+76589260,28,F,straight,5/5/2023,negative,concurrent,11+,Indiana,FALSE
+82077243,15,F,straight,4/24/2023,negative,concurrent,4 to 6,Florida,TRUE
+33872636,28,M,straight,3/8/2023,positive,sequential,11+,Tennessee,TRUE
+99846484,8,M,straight,11/15/2023,positive,concurrent,11+,District of Columbia,TRUE
+84989180,35,M,straight,4/24/2023,negative,sequential,1 to 3,Colorado,FALSE
+60825694,33,M,bisexual,7/1/2023,positive,concurrent,4 to 6,Missouri,TRUE
+72478513,46,F,straight,5/24/2023,positive,concurrent,1 to 3,California,FALSE
+82987954,23,F,straight,11/30/2023,negative,sequential,1 to 3,Alabama,TRUE
+30781679,47,F,bisexual,6/29/2023,negative,sequential,4 to 6,Texas,TRUE
+28892026,27,M,straight,5/12/2023,positive,sequential,4 to 6,Nevada,TRUE
+32826449,29,M,straight,10/17/2023,negative,sequential,11+,Illinois,FALSE
+59074591,42,F,straight,1/10/2023,negative,sequential,11+,North Carolina,TRUE
+93039001,15,F,lesbian,7/13/2023,negative,sequential,4 to 6,Missouri,FALSE
+40640937,30,M,straight,12/25/2023,negative,concurrent,4 to 6,Nebraska,FALSE
+56316036,32,M,straight,3/13/2023,positive,sequential,4 to 6,Florida,FALSE
+29380823,47,M,straight,11/13/2023,negative,concurrent,11+,Mississippi,FALSE
+38193488,14,F,straight,11/24/2023,negative,sequential,11+,Florida,TRUE
+82855466,14,F,straight,4/9/2023,negative,concurrent,4 to 6,Arkansas,TRUE
+33149505,47,M,straight,5/12/2023,positive,concurrent,7 to 10,Missouri,TRUE
+84275292,33,M,straight,5/29/2023,negative,sequential,7 to 10,Virginia,TRUE
+58090775,28,F,straight,6/27/2023,negative,concurrent,11+,District of Columbia,TRUE
+71106928,39,M,straight,6/21/2023,positive,sequential,11+,Massachusetts,FALSE
+95106459,15,F,straight,6/21/2023,positive,sequential,11+,North Carolina,FALSE
+51663918,25,M,straight,4/22/2023,negative,sequential,11+,California,FALSE
+97503532,20,F,straight,10/26/2023,negative,sequential,11+,Texas,TRUE
+23769897,25,F,straight,3/21/2023,negative,concurrent,1 to 3,California,TRUE
+26167059,26,F,straight,7/5/2023,positive,sequential,4 to 6,New York,TRUE
+3781114,38,F,straight,6/4/2023,negative,sequential,1 to 3,Ohio,FALSE
+1960072,23,F,straight,6/8/2023,positive,sequential,1 to 3,Indiana,FALSE
+76210112,21,M,straight,10/9/2023,positive,concurrent,7 to 10,Tennessee,TRUE
+97594471,31,F,lesbian,9/25/2023,negative,concurrent,11+,South Carolina,TRUE
+24028350,48,M,straight,9/5/2023,negative,sequential,7 to 10,Virginia,FALSE
+15408818,15,F,straight,10/30/2023,negative,concurrent,7 to 10,Virginia,FALSE
+14758183,34,M,gay,11/16/2023,negative,concurrent,1 to 3,California,TRUE
+7716861,26,F,straight,8/3/2023,negative,concurrent,1 to 3,Missouri,TRUE
+33086908,25,F,straight,1/19/2023,negative,sequential,4 to 6,Nevada,FALSE
+49408196,17,M,straight,5/1/2023,negative,concurrent,11+,Kentucky,FALSE
+27742133,36,M,straight,10/25/2023,negative,concurrent,11+,Texas,FALSE
+78308093,24,M,gay,6/22/2023,negative,sequential,4 to 6,Florida,FALSE
+23661784,33,F,straight,10/16/2023,positive,concurrent,7 to 10,California,FALSE
+72758388,40,M,lesbian,12/16/2023,positive,sequential,11+,Ohio,FALSE
+41826372,36,F,bisexual,5/22/2023,negative,sequential,7 to 10,California,TRUE
+21000242,33,F,straight,3/16/2023,negative,concurrent,4 to 6,Oklahoma,TRUE
+20557929,32,F,lesbian,10/11/2023,positive,sequential,1 to 3,Ohio,TRUE
+56133682,21,M,straight,9/19/2023,negative,sequential,11+,Florida,TRUE
+60280710,30,F,straight,7/13/2023,negative,sequential,7 to 10,California,FALSE
+14706284,33,F,straight,10/24/2023,positive,concurrent,7 to 10,Pennsylvania,TRUE
+53557377,32,F,straight,4/23/2023,positive,sequential,4 to 6,Connecticut,FALSE
+68827361,28,F,straight,11/27/2023,negative,sequential,1 to 3,Missouri,FALSE
+33752479,30,M,straight,6/7/2023,negative,sequential,1 to 3,District of Columbia,TRUE
+62246011,28,F,straight,6/14/2023,positive,concurrent,7 to 10,District of Columbia,FALSE
+56011842,39,F,straight,8/11/2023,negative,concurrent,1 to 3,California,TRUE
+41753010,29,F,straight,9/13/2023,positive,sequential,11+,Oregon,FALSE
+99610568,27,F,straight,5/17/2023,negative,sequential,1 to 3,Ohio,TRUE
+7874846,38,F,straight,7/7/2023,negative,concurrent,7 to 10,District of Columbia,TRUE
+59272579,17,F,straight,7/2/2023,negative,sequential,4 to 6,North Carolina,TRUE
+50595492,43,F,bisexual,11/13/2023,negative,concurrent,11+,Minnesota,TRUE
+81882927,18,M,straight,10/4/2023,negative,sequential,7 to 10,Washington,FALSE
+49503768,51,F,straight,8/21/2023,negative,concurrent,7 to 10,Maryland,FALSE
+74996729,31,F,bisexual,4/27/2023,negative,sequential,1 to 3,Colorado,TRUE
+6019911,19,F,straight,6/6/2023,negative,concurrent,1 to 3,North Dakota,TRUE
+19658981,25,M,straight,12/3/2023,negative,concurrent,4 to 6,Massachusetts,TRUE
+84970428,32,M,straight,5/8/2023,negative,concurrent,4 to 6,Hawaii,FALSE
+89553554,34,M,straight,3/8/2023,negative,concurrent,1 to 3,Florida,FALSE
+30763184,30,M,straight,5/30/2023,negative,sequential,7 to 10,Texas,FALSE
+21786917,34,M,straight,4/30/2023,negative,sequential,11+,Florida,TRUE
+81446864,42,M,straight,7/28/2023,negative,concurrent,4 to 6,Iowa,FALSE
+59828556,32,F,gay,1/8/2023,negative,sequential,1 to 3,Texas,FALSE
+22271991,36,F,straight,11/6/2023,positive,concurrent,1 to 3,Texas,FALSE
+62911753,12,M,straight,8/7/2023,positive,concurrent,7 to 10,Texas,TRUE
+79131452,38,F,straight,1/1/2023,negative,sequential,4 to 6,New York,FALSE
+94794056,22,F,straight,6/2/2023,negative,sequential,1 to 3,Oklahoma,FALSE
+46660763,23,F,straight,5/17/2023,negative,sequential,11+,Arizona,TRUE
+20204725,37,F,straight,5/10/2023,negative,concurrent,4 to 6,Wisconsin,FALSE
+8165931,28,F,straight,9/12/2023,negative,sequential,1 to 3,Indiana,TRUE
+32438823,30,F,straight,1/30/2023,negative,concurrent,1 to 3,Florida,TRUE
+75362465,30,M,gay,8/7/2023,negative,sequential,7 to 10,New York,TRUE
+95966493,44,M,straight,8/19/2023,positive,sequential,7 to 10,Texas,TRUE
+98522906,35,M,straight,4/27/2023,negative,sequential,4 to 6,Washington,FALSE
+45648495,35,M,straight,5/16/2023,negative,concurrent,11+,Pennsylvania,FALSE
+32122475,25,M,straight,7/14/2023,positive,sequential,11+,Florida,TRUE
+51517700,18,F,straight,7/16/2023,positive,sequential,1 to 3,Minnesota,TRUE
+44816554,24,F,straight,9/17/2023,negative,concurrent,4 to 6,Oklahoma,TRUE
+85736491,26,M,lesbian,10/30/2023,negative,sequential,11+,Mississippi,FALSE
+60553185,14,M,straight,11/16/2023,positive,sequential,4 to 6,North Carolina,TRUE
+92862746,25,F,straight,5/30/2023,negative,concurrent,11+,Texas,TRUE
+27631018,32,F,straight,4/4/2023,negative,concurrent,4 to 6,Arizona,FALSE
+56540380,26,M,straight,4/22/2023,negative,concurrent,4 to 6,California,FALSE
+51550191,19,F,straight,4/9/2023,negative,concurrent,1 to 3,Georgia,FALSE
+86006525,46,F,bisexual,8/15/2023,positive,concurrent,1 to 3,Florida,FALSE
+17400573,35,M,straight,10/7/2023,negative,sequential,7 to 10,Arizona,TRUE
+38780445,25,F,straight,1/25/2023,negative,sequential,7 to 10,Florida,TRUE
+61815276,30,M,straight,2/20/2023,negative,concurrent,11+,Maryland,FALSE
+58554384,13,M,straight,1/7/2023,negative,sequential,4 to 6,California,TRUE
+52503814,31,F,straight,6/30/2023,positive,concurrent,11+,Texas,FALSE
+99637502,27,M,straight,6/3/2023,negative,sequential,11+,South Dakota,FALSE
+78449073,39,F,bisexual,10/3/2023,negative,concurrent,7 to 10,Mississippi,TRUE
+55869740,7,M,straight,11/21/2023,positive,sequential,7 to 10,Nebraska,TRUE
+10947318,35,F,straight,11/2/2023,negative,sequential,11+,California,TRUE
+50045680,19,M,straight,7/21/2023,negative,sequential,4 to 6,Nevada,TRUE
+1264384,22,F,straight,6/19/2023,positive,sequential,11+,West Virginia,TRUE
+27591215,32,M,straight,8/3/2023,negative,sequential,1 to 3,Colorado,FALSE
+34470206,24,F,straight,8/29/2023,negative,concurrent,4 to 6,Louisiana,FALSE
+41225931,12,F,straight,12/21/2023,positive,sequential,4 to 6,Maryland,TRUE
+9332586,41,F,straight,6/25/2023,negative,sequential,11+,Michigan,FALSE
+33209656,24,M,straight,5/1/2023,positive,sequential,11+,Florida,TRUE
+34816326,21,M,straight,3/8/2023,negative,sequential,1 to 3,Wisconsin,TRUE
+14218858,24,F,gay,8/9/2023,positive,sequential,11+,Texas,TRUE
+96005012,28,F,straight,2/16/2023,negative,sequential,7 to 10,Florida,TRUE
+71626356,39,M,straight,4/15/2023,negative,concurrent,4 to 6,Tennessee,FALSE
+78229908,44,F,straight,10/15/2023,negative,concurrent,1 to 3,Texas,TRUE
+37177395,31,M,straight,8/26/2023,negative,sequential,7 to 10,Massachusetts,FALSE
+23856423,20,F,straight,2/12/2023,negative,concurrent,7 to 10,Florida,FALSE
+1265344,30,F,straight,4/13/2023,negative,concurrent,7 to 10,New York,FALSE
+58956562,34,M,straight,7/23/2023,negative,concurrent,1 to 3,California,TRUE
+77742602,33,M,straight,11/1/2023,negative,concurrent,1 to 3,California,TRUE
+70691471,44,M,straight,1/23/2023,negative,concurrent,7 to 10,Virginia,TRUE
+7087706,27,M,straight,8/29/2023,positive,sequential,7 to 10,New York,TRUE
+96916046,42,F,straight,12/4/2023,negative,concurrent,4 to 6,California,FALSE
+91573039,37,M,straight,12/3/2023,positive,concurrent,7 to 10,Florida,TRUE
+7491793,29,M,straight,8/19/2023,negative,concurrent,7 to 10,Maryland,TRUE
+45586941,42,M,bisexual,3/6/2023,positive,concurrent,4 to 6,Pennsylvania,FALSE
+39876714,27,M,straight,11/22/2023,negative,concurrent,1 to 3,Virginia,TRUE
+5079039,26,M,straight,6/1/2023,negative,concurrent,1 to 3,North Carolina,TRUE
+62947272,30,M,straight,11/12/2023,negative,sequential,4 to 6,Ohio,TRUE
+58575611,6,F,straight,6/30/2023,negative,concurrent,4 to 6,Ohio,FALSE
+94698667,29,F,straight,3/12/2023,negative,sequential,11+,Indiana,FALSE
+11930542,22,F,lesbian,2/4/2023,negative,sequential,7 to 10,Colorado,TRUE
+35221096,26,M,straight,11/29/2023,negative,concurrent,4 to 6,Texas,TRUE
+35810377,41,M,bisexual,3/2/2023,positive,concurrent,7 to 10,Illinois,TRUE
+25681581,34,F,straight,3/25/2023,negative,sequential,4 to 6,District of Columbia,FALSE
+20082759,30,F,straight,9/22/2023,negative,concurrent,11+,California,FALSE
+44342880,19,F,straight,11/22/2023,negative,concurrent,7 to 10,Minnesota,TRUE
+89323078,11,M,lesbian,8/31/2023,negative,concurrent,11+,New York,FALSE
+42520659,26,F,straight,6/22/2023,negative,sequential,4 to 6,Texas,TRUE
+47659820,29,F,straight,11/23/2023,positive,concurrent,4 to 6,Texas,TRUE
+11193052,28,M,straight,12/22/2023,negative,concurrent,4 to 6,Florida,TRUE
+88307455,35,M,straight,8/27/2023,negative,concurrent,11+,Massachusetts,TRUE
+42523020,26,M,straight,3/28/2023,negative,concurrent,4 to 6,California,TRUE
+60385333,44,M,straight,1/9/2023,negative,concurrent,4 to 6,Pennsylvania,TRUE
+60051515,21,F,straight,11/20/2023,negative,sequential,7 to 10,Pennsylvania,TRUE
+39420598,16,M,bisexual,9/20/2023,positive,concurrent,11+,Louisiana,TRUE
+69882414,44,F,straight,9/28/2023,negative,concurrent,7 to 10,Georgia,TRUE
+17137323,37,F,straight,12/9/2023,negative,concurrent,11+,Maryland,TRUE
+54507451,22,M,straight,4/17/2023,positive,concurrent,7 to 10,Tennessee,FALSE
+72127902,23,M,lesbian,10/24/2023,positive,sequential,7 to 10,New York,FALSE
+83597194,32,F,straight,6/28/2023,negative,concurrent,1 to 3,District of Columbia,TRUE
+97635991,50,M,straight,7/4/2023,positive,concurrent,4 to 6,Florida,TRUE
+65177018,37,F,bisexual,2/11/2023,negative,sequential,4 to 6,Georgia,FALSE
+73362609,30,M,straight,3/7/2023,positive,concurrent,4 to 6,Pennsylvania,TRUE
+48129824,31,M,bisexual,11/12/2023,negative,concurrent,4 to 6,New York,FALSE
+56025139,28,M,straight,1/2/2023,positive,sequential,11+,District of Columbia,FALSE
+53035623,32,M,straight,11/25/2023,negative,sequential,7 to 10,Pennsylvania,TRUE
+40223425,48,F,straight,12/29/2023,positive,concurrent,7 to 10,Georgia,TRUE
+25450801,33,M,straight,10/26/2023,positive,sequential,11+,Iowa,TRUE
+59806439,39,F,straight,3/2/2023,positive,sequential,1 to 3,Ohio,FALSE
+68629765,45,F,straight,10/31/2023,negative,concurrent,11+,New York,TRUE
+14265375,30,F,straight,5/22/2023,negative,sequential,4 to 6,Texas,FALSE
+30461377,32,F,straight,3/31/2023,negative,sequential,4 to 6,West Virginia,TRUE
+57832312,39,M,straight,1/13/2023,negative,sequential,1 to 3,Nebraska,TRUE
+90417724,28,F,straight,1/9/2023,negative,sequential,7 to 10,New York,TRUE
+4501151,33,F,gay,9/25/2023,positive,sequential,11+,Texas,TRUE
+25809420,39,M,bisexual,11/6/2023,negative,sequential,4 to 6,District of Columbia,FALSE
+97889452,41,F,straight,6/22/2023,negative,sequential,4 to 6,Pennsylvania,FALSE
+28401913,20,M,straight,1/21/2023,negative,sequential,7 to 10,Florida,FALSE
+32710696,33,M,straight,5/1/2023,negative,sequential,1 to 3,Texas,FALSE
+82183784,21,F,straight,4/22/2023,positive,sequential,11+,California,TRUE
+19854694,49,F,straight,6/26/2023,negative,sequential,1 to 3,California,TRUE
+47467563,34,F,straight,7/25/2023,negative,concurrent,7 to 10,New York,TRUE
+83750095,31,M,lesbian,3/28/2023,negative,concurrent,1 to 3,New York,TRUE
+12469669,28,F,straight,4/17/2023,negative,concurrent,7 to 10,Texas,FALSE
+12745800,39,F,straight,4/4/2023,negative,concurrent,11+,Indiana,FALSE
+83520345,31,F,lesbian,6/28/2023,negative,sequential,11+,Alabama,FALSE
+5924496,43,M,straight,9/11/2023,negative,concurrent,7 to 10,California,TRUE
+47165052,21,M,straight,11/30/2023,negative,sequential,1 to 3,District of Columbia,TRUE
+66730737,32,M,straight,12/19/2023,negative,sequential,11+,Texas,FALSE
+4388143,40,F,straight,1/29/2023,positive,sequential,7 to 10,Nevada,FALSE
+51185271,25,M,straight,9/12/2023,negative,sequential,1 to 3,New York,TRUE
+34143469,30,M,lesbian,5/15/2023,negative,sequential,4 to 6,Indiana,TRUE
+12278078,52,M,straight,8/16/2023,positive,sequential,11+,Kansas,TRUE
+24628291,42,M,straight,11/1/2023,negative,sequential,11+,Oregon,TRUE
+68934484,23,M,straight,6/23/2023,negative,sequential,7 to 10,District of Columbia,FALSE
+35888671,33,M,straight,4/26/2023,negative,concurrent,11+,California,TRUE
+77858382,20,M,bisexual,5/18/2023,negative,sequential,7 to 10,New York,TRUE
+94542953,16,M,straight,11/16/2023,negative,concurrent,4 to 6,Florida,TRUE
+12570293,36,F,bisexual,3/2/2023,positive,concurrent,7 to 10,New York,FALSE
+58859051,38,M,straight,11/18/2023,negative,sequential,4 to 6,Florida,TRUE
+19604234,39,M,straight,11/24/2023,negative,concurrent,7 to 10,South Carolina,FALSE
+38403146,27,F,straight,2/22/2023,negative,sequential,4 to 6,Oklahoma,TRUE
+84228373,23,F,straight,3/30/2023,negative,concurrent,4 to 6,Louisiana,TRUE
+47295117,24,M,gay,11/12/2023,negative,concurrent,7 to 10,Nevada,FALSE
+66400162,29,M,straight,9/15/2023,negative,sequential,4 to 6,Virginia,TRUE
+60415154,24,M,straight,2/1/2023,negative,sequential,4 to 6,Pennsylvania,FALSE
+10183996,21,M,straight,9/29/2023,negative,concurrent,1 to 3,South Carolina,TRUE
+36840422,26,M,straight,4/5/2023,negative,concurrent,1 to 3,California,TRUE
+3222608,9,M,straight,4/6/2023,negative,concurrent,7 to 10,District of Columbia,FALSE
+5781793,41,M,straight,12/29/2023,negative,concurrent,1 to 3,Texas,TRUE
+14971602,32,M,straight,1/21/2023,negative,concurrent,1 to 3,Washington,TRUE
+45571201,18,M,straight,8/31/2023,negative,sequential,1 to 3,Oregon,FALSE
+70603032,44,F,straight,3/7/2023,negative,concurrent,11+,New Jersey,TRUE
+44971334,18,F,straight,6/14/2023,negative,sequential,11+,Pennsylvania,FALSE
+82163465,29,M,straight,9/29/2023,negative,concurrent,4 to 6,Kansas,FALSE
+64640245,34,M,straight,4/5/2023,negative,concurrent,1 to 3,Louisiana,FALSE
+4447381,34,F,straight,11/16/2023,negative,sequential,11+,New York,FALSE
+26566202,46,M,straight,2/11/2023,negative,concurrent,7 to 10,California,FALSE
+10264850,10,F,straight,6/27/2023,positive,sequential,4 to 6,Ohio,FALSE
+14542917,41,M,straight,4/22/2023,negative,sequential,4 to 6,Texas,TRUE
+52111865,37,F,straight,4/30/2023,negative,sequential,7 to 10,Virginia,TRUE
+26766560,36,F,straight,1/15/2023,negative,concurrent,1 to 3,Michigan,FALSE
+13750609,13,F,straight,2/9/2023,negative,concurrent,4 to 6,District of Columbia,TRUE
+31410581,32,F,straight,7/4/2023,negative,sequential,4 to 6,Oklahoma,FALSE
+19157898,33,F,straight,2/13/2023,negative,sequential,1 to 3,Colorado,FALSE
+17125743,26,F,straight,4/9/2023,positive,sequential,1 to 3,Connecticut,FALSE
+38080087,9,M,straight,10/3/2023,negative,concurrent,11+,North Carolina,TRUE
+72259789,34,M,straight,7/24/2023,positive,concurrent,1 to 3,Florida,FALSE
+95459999,20,F,straight,12/2/2023,negative,concurrent,7 to 10,Texas,TRUE
+42283634,29,F,straight,3/14/2023,negative,concurrent,4 to 6,Alaska,FALSE
+21271936,26,F,straight,5/12/2023,negative,concurrent,7 to 10,Illinois,FALSE
+46852320,38,F,straight,10/13/2023,negative,sequential,1 to 3,Florida,FALSE
+50883762,27,F,straight,7/1/2023,positive,concurrent,11+,Massachusetts,FALSE
+58611114,64,M,gay,6/21/2023,negative,sequential,7 to 10,Tennessee,FALSE
+27975261,27,M,bisexual,11/27/2023,positive,sequential,1 to 3,Pennsylvania,TRUE
+98156085,25,M,bisexual,4/20/2023,negative,concurrent,1 to 3,Tennessee,FALSE
+50433592,14,M,straight,2/20/2023,positive,sequential,1 to 3,Georgia,TRUE
+49539813,48,M,straight,10/28/2023,positive,concurrent,7 to 10,New York,TRUE
+87823073,38,M,straight,9/26/2023,negative,sequential,4 to 6,North Carolina,TRUE
+61901576,12,F,straight,12/14/2023,negative,concurrent,7 to 10,Michigan,TRUE
+91161695,24,M,straight,3/12/2023,positive,concurrent,7 to 10,Virginia,FALSE
+21706521,40,M,straight,5/18/2023,negative,sequential,4 to 6,Virginia,FALSE
+55903724,21,M,straight,11/14/2023,negative,sequential,1 to 3,New York,FALSE
+60113818,45,M,straight,12/15/2023,negative,concurrent,1 to 3,New York,FALSE
+20386554,46,M,straight,12/9/2023,negative,concurrent,7 to 10,Colorado,TRUE
+42048411,32,F,straight,6/16/2023,positive,sequential,1 to 3,North Carolina,FALSE
+17946366,31,F,bisexual,2/26/2023,negative,concurrent,7 to 10,Alabama,FALSE
+86824582,21,F,straight,1/25/2023,negative,sequential,1 to 3,Washington,TRUE
+97164584,18,F,bisexual,2/10/2023,negative,sequential,11+,Pennsylvania,TRUE
+59680348,29,M,straight,11/1/2023,positive,sequential,1 to 3,Nebraska,TRUE
+51043470,17,M,straight,5/2/2023,negative,concurrent,11+,Tennessee,TRUE
+47647007,39,M,straight,12/20/2023,negative,concurrent,1 to 3,Pennsylvania,FALSE
+6791127,30,F,gay,5/23/2023,positive,sequential,1 to 3,California,TRUE
+11899474,36,F,bisexual,5/10/2023,positive,concurrent,11+,Pennsylvania,TRUE
+91141640,26,F,gay,6/18/2023,negative,sequential,11+,Michigan,FALSE
+41781704,25,F,lesbian,2/21/2023,negative,concurrent,1 to 3,California,TRUE
+39671263,31,M,straight,4/8/2023,positive,concurrent,11+,Ohio,TRUE
+67317514,29,F,straight,7/23/2023,negative,sequential,4 to 6,Ohio,TRUE
+46283102,42,M,straight,2/11/2023,negative,concurrent,4 to 6,Oregon,FALSE
+81813464,28,M,straight,8/11/2023,positive,concurrent,4 to 6,Florida,FALSE
+54980407,51,F,straight,4/11/2023,negative,concurrent,11+,California,FALSE
+57818691,24,M,straight,9/10/2023,negative,concurrent,4 to 6,Pennsylvania,FALSE
+49678704,34,M,straight,6/14/2023,negative,concurrent,7 to 10,Kansas,TRUE
+31206997,27,F,straight,3/17/2023,negative,sequential,7 to 10,Michigan,FALSE
+61792569,17,F,straight,3/15/2023,negative,sequential,11+,Maryland,TRUE
+70951998,17,F,straight,6/10/2023,negative,concurrent,4 to 6,Georgia,FALSE
+38749277,31,M,straight,1/12/2023,negative,sequential,4 to 6,California,TRUE
+83079038,28,F,straight,1/21/2023,negative,sequential,1 to 3,Indiana,FALSE
+86454032,25,M,straight,5/31/2023,negative,sequential,4 to 6,Pennsylvania,FALSE
+28239452,29,F,straight,10/30/2023,negative,sequential,11+,Connecticut,TRUE
+50055993,46,M,straight,12/27/2023,negative,concurrent,7 to 10,California,TRUE
+11614338,32,M,straight,11/7/2023,negative,concurrent,4 to 6,Connecticut,FALSE
+39980666,25,F,bisexual,11/15/2023,negative,concurrent,1 to 3,California,TRUE
+48647518,39,F,bisexual,7/4/2023,negative,sequential,11+,Florida,FALSE
+17544575,36,M,straight,2/24/2023,positive,concurrent,4 to 6,Florida,FALSE
+2580121,28,F,straight,3/22/2023,negative,concurrent,1 to 3,California,TRUE
+85149238,20,F,straight,9/5/2023,positive,sequential,7 to 10,Texas,TRUE
+30228284,42,F,straight,8/4/2023,negative,concurrent,1 to 3,Florida,FALSE
+36364802,24,M,straight,6/21/2023,negative,sequential,4 to 6,Massachusetts,FALSE
+51029494,21,F,straight,10/26/2023,positive,concurrent,1 to 3,Florida,FALSE
+89044861,12,F,straight,1/9/2023,negative,concurrent,4 to 6,Florida,FALSE
+24397717,33,M,bisexual,6/5/2023,negative,sequential,11+,Florida,FALSE
+88702905,37,F,lesbian,12/24/2023,negative,concurrent,11+,Pennsylvania,FALSE
+94347101,28,F,gay,8/15/2023,negative,sequential,11+,West Virginia,TRUE
+85358061,48,M,bisexual,5/3/2023,positive,concurrent,1 to 3,Ohio,FALSE
+50717826,35,M,straight,12/21/2023,negative,sequential,1 to 3,Texas,TRUE
+98631399,33,F,straight,8/9/2023,positive,sequential,1 to 3,Minnesota,TRUE
+40943123,25,F,straight,11/22/2023,negative,sequential,4 to 6,Florida,TRUE
+7059084,34,F,straight,3/26/2023,positive,sequential,7 to 10,New Jersey,FALSE
+51226271,20,F,straight,10/3/2023,negative,concurrent,7 to 10,Florida,TRUE
+92760274,36,M,straight,3/17/2023,negative,concurrent,11+,South Carolina,FALSE
+48606318,30,M,straight,11/6/2023,positive,sequential,11+,Georgia,FALSE
+65298498,29,F,straight,9/21/2023,negative,sequential,1 to 3,District of Columbia,FALSE
+16371485,41,M,straight,5/6/2023,negative,sequential,7 to 10,New York,FALSE
+88205240,36,M,straight,8/13/2023,negative,concurrent,4 to 6,California,FALSE
+98896235,32,F,straight,8/26/2023,negative,concurrent,1 to 3,Ohio,TRUE
+39319948,35,F,straight,3/29/2023,negative,concurrent,7 to 10,Texas,TRUE
+80640715,33,F,straight,6/19/2023,negative,sequential,4 to 6,Texas,TRUE
+1954871,21,F,straight,2/3/2023,negative,sequential,1 to 3,Ohio,TRUE
+78677432,47,F,straight,10/25/2023,negative,concurrent,4 to 6,Missouri,TRUE
+43271168,34,F,straight,1/31/2023,negative,sequential,4 to 6,Florida,FALSE
+96164344,45,M,straight,7/10/2023,positive,sequential,1 to 3,North Carolina,FALSE
+53890003,39,F,straight,2/25/2023,negative,concurrent,11+,Virginia,FALSE
+53244145,49,F,straight,7/2/2023,negative,sequential,11+,California,TRUE
+55994717,35,F,straight,9/29/2023,negative,concurrent,4 to 6,Texas,TRUE
+22912411,26,M,straight,8/18/2023,negative,sequential,11+,California,TRUE
+86423267,22,M,straight,5/7/2023,negative,sequential,11+,Ohio,TRUE
+88104758,56,F,straight,5/16/2023,negative,sequential,1 to 3,Pennsylvania,TRUE
+97590847,43,M,straight,3/18/2023,negative,concurrent,7 to 10,New York,FALSE
+24392142,40,F,straight,2/28/2023,negative,concurrent,11+,Florida,FALSE
+22850005,24,M,straight,12/8/2023,positive,concurrent,11+,Florida,TRUE
+25949314,3,F,straight,1/23/2023,negative,sequential,1 to 3,New York,TRUE
+11298832,36,M,straight,9/17/2023,positive,sequential,1 to 3,Georgia,TRUE
+34253280,32,F,gay,9/15/2023,negative,sequential,11+,Montana,FALSE
+42559306,18,F,straight,1/10/2023,positive,sequential,4 to 6,Florida,TRUE
+90061026,22,F,straight,2/5/2023,negative,sequential,1 to 3,New York,FALSE
+18817962,13,M,straight,8/20/2023,positive,concurrent,1 to 3,Florida,TRUE
+37234765,34,M,straight,12/11/2023,negative,concurrent,1 to 3,Minnesota,TRUE
+38147032,40,M,straight,2/24/2023,negative,sequential,11+,New York,FALSE
+58157766,28,F,straight,1/28/2023,negative,concurrent,7 to 10,California,TRUE
+17533321,10,M,lesbian,5/28/2023,negative,sequential,4 to 6,District of Columbia,FALSE
+21056217,6,M,straight,1/2/2023,negative,concurrent,7 to 10,Texas,TRUE
+23306377,29,F,gay,2/12/2023,positive,sequential,7 to 10,Arkansas,FALSE
+44321139,37,F,straight,12/23/2023,negative,sequential,7 to 10,Texas,FALSE
+97363265,36,F,bisexual,7/13/2023,positive,sequential,1 to 3,Texas,TRUE
+48869342,29,M,lesbian,5/17/2023,negative,concurrent,4 to 6,Texas,TRUE
+9705100,27,F,straight,6/7/2023,positive,concurrent,11+,California,TRUE
+82373130,14,M,straight,10/4/2023,positive,sequential,7 to 10,Michigan,TRUE
+68875907,35,M,straight,2/15/2023,negative,sequential,7 to 10,New York,FALSE
+91788537,28,F,bisexual,10/20/2023,negative,sequential,1 to 3,Florida,FALSE
+73060810,39,F,bisexual,8/11/2023,positive,sequential,7 to 10,Utah,TRUE
+83579941,19,M,straight,8/1/2023,negative,sequential,7 to 10,Florida,FALSE
+96789814,12,M,straight,6/2/2023,negative,concurrent,11+,Texas,FALSE
+80042392,29,M,straight,7/19/2023,negative,concurrent,11+,Florida,FALSE
+60019600,34,M,straight,8/20/2023,negative,concurrent,11+,North Carolina,FALSE
+49483507,26,F,straight,12/19/2023,negative,sequential,7 to 10,Florida,FALSE
+66471953,38,F,straight,3/4/2023,positive,concurrent,7 to 10,California,TRUE
+6903254,28,M,straight,10/29/2023,negative,concurrent,7 to 10,Texas,FALSE
+99291178,37,M,straight,12/18/2023,negative,sequential,4 to 6,Maryland,FALSE
+98179908,19,M,straight,10/11/2023,negative,sequential,1 to 3,Texas,TRUE
+62280945,18,F,straight,9/9/2023,negative,sequential,1 to 3,Tennessee,TRUE
+70207843,22,F,straight,11/9/2023,positive,sequential,7 to 10,Virginia,FALSE
+28593602,9,M,straight,7/30/2023,negative,concurrent,7 to 10,Texas,TRUE
+23243111,39,M,bisexual,7/2/2023,negative,sequential,4 to 6,California,TRUE
+26100810,34,F,gay,9/2/2023,positive,sequential,7 to 10,District of Columbia,TRUE
+40387763,29,F,lesbian,2/8/2023,negative,concurrent,1 to 3,Louisiana,FALSE
+85119994,25,M,straight,4/19/2023,negative,sequential,11+,North Carolina,TRUE
+65746609,21,F,lesbian,1/13/2023,positive,sequential,1 to 3,Missouri,FALSE
+88947874,23,M,straight,5/30/2023,negative,concurrent,7 to 10,Florida,FALSE
+65170893,51,F,straight,9/6/2023,negative,sequential,11+,New York,TRUE
+28382897,54,M,straight,5/17/2023,negative,concurrent,11+,Washington,FALSE
+70242994,26,F,straight,1/29/2023,negative,concurrent,1 to 3,Texas,FALSE
+92701291,12,F,straight,7/29/2023,negative,sequential,7 to 10,Maryland,FALSE
+11644068,41,F,lesbian,1/25/2023,positive,sequential,11+,South Carolina,TRUE
+3529877,39,F,straight,5/3/2023,negative,concurrent,4 to 6,Connecticut,FALSE
+55078364,50,M,straight,3/7/2023,positive,sequential,7 to 10,California,TRUE
+59117571,32,M,straight,11/1/2023,positive,sequential,4 to 6,Kentucky,FALSE
+66279510,36,F,straight,3/28/2023,negative,sequential,1 to 3,Florida,TRUE
+77605264,36,F,straight,2/16/2023,negative,sequential,11+,Indiana,FALSE
+64993114,33,F,straight,11/28/2023,negative,concurrent,7 to 10,Oklahoma,FALSE
+80503428,15,F,straight,4/29/2023,positive,concurrent,11+,Florida,TRUE
+22850784,35,M,straight,10/15/2023,negative,concurrent,1 to 3,Texas,FALSE
+8943180,33,F,straight,5/16/2023,negative,concurrent,4 to 6,District of Columbia,FALSE
+20879710,16,M,straight,9/25/2023,negative,sequential,11+,North Carolina,FALSE
+69021633,25,M,straight,12/23/2023,negative,sequential,1 to 3,New York,TRUE
+56753232,23,M,straight,1/18/2023,positive,sequential,4 to 6,Texas,TRUE
+86605103,43,M,straight,5/1/2023,negative,concurrent,7 to 10,Washington,TRUE
+58058231,29,M,straight,10/26/2023,negative,concurrent,11+,California,FALSE
+48326770,15,M,straight,3/21/2023,positive,concurrent,4 to 6,Indiana,FALSE
+79931706,35,F,straight,12/27/2023,positive,concurrent,7 to 10,District of Columbia,TRUE
+40873362,29,F,straight,5/14/2023,negative,concurrent,1 to 3,District of Columbia,FALSE
+61863545,46,M,straight,3/7/2023,negative,concurrent,4 to 6,Georgia,FALSE
+50096863,14,F,straight,3/21/2023,negative,sequential,1 to 3,Delaware,TRUE
+82669220,11,M,straight,2/3/2023,positive,sequential,11+,Texas,FALSE
+90849334,17,F,straight,9/3/2023,negative,sequential,1 to 3,Texas,FALSE
+19346010,11,F,straight,5/9/2023,negative,concurrent,7 to 10,South Carolina,FALSE
+59847319,27,M,straight,5/2/2023,positive,sequential,1 to 3,Missouri,TRUE
+20848980,39,F,straight,3/7/2023,negative,sequential,11+,Texas,FALSE
+96353407,26,M,straight,11/3/2023,negative,concurrent,11+,Minnesota,TRUE
+93050596,27,M,lesbian,2/2/2023,positive,concurrent,4 to 6,Illinois,FALSE
+28866185,23,M,straight,1/27/2023,positive,concurrent,11+,California,TRUE
+54917591,31,M,straight,10/29/2023,positive,concurrent,4 to 6,Virginia,FALSE
+73643821,40,F,straight,8/16/2023,negative,sequential,1 to 3,California,FALSE
+92035037,44,F,straight,10/19/2023,positive,concurrent,11+,Virginia,TRUE
+41087609,22,F,bisexual,12/25/2023,negative,sequential,11+,Massachusetts,FALSE
+84943527,17,F,straight,7/24/2023,negative,sequential,7 to 10,Missouri,FALSE
+48386470,22,M,bisexual,1/18/2023,positive,sequential,4 to 6,North Dakota,FALSE
+25677825,34,F,straight,2/20/2023,negative,concurrent,4 to 6,Indiana,TRUE
+28325735,37,M,bisexual,9/12/2023,positive,sequential,7 to 10,Georgia,FALSE
+98376004,24,M,straight,4/6/2023,negative,concurrent,7 to 10,Illinois,FALSE
+84723813,39,F,straight,12/5/2023,negative,sequential,11+,Arizona,FALSE
+952758,47,M,straight,10/1/2023,negative,concurrent,4 to 6,Texas,FALSE
+55921063,34,M,straight,8/5/2023,negative,concurrent,4 to 6,California,TRUE
+15696505,20,M,straight,10/6/2023,positive,concurrent,11+,Nevada,FALSE
+68616693,33,M,bisexual,3/31/2023,negative,sequential,4 to 6,Virginia,FALSE
+80228403,22,M,straight,4/10/2023,negative,concurrent,7 to 10,North Carolina,FALSE
+97289298,37,M,bisexual,8/27/2023,negative,concurrent,7 to 10,Connecticut,TRUE
+35884593,27,M,gay,1/15/2023,positive,concurrent,4 to 6,Oklahoma,TRUE
+90020033,44,M,bisexual,7/1/2023,negative,sequential,4 to 6,Texas,TRUE
+36213856,32,F,bisexual,8/26/2023,negative,sequential,11+,South Carolina,TRUE
+77272728,28,F,straight,5/24/2023,negative,sequential,11+,California,FALSE
+94804514,33,F,lesbian,2/7/2023,negative,sequential,11+,Texas,TRUE
+53857906,26,F,bisexual,7/3/2023,positive,sequential,11+,New York,FALSE
+18205350,33,F,straight,9/11/2023,negative,concurrent,7 to 10,Pennsylvania,FALSE
+95891834,25,M,straight,3/8/2023,positive,sequential,4 to 6,California,TRUE
+77635184,42,M,straight,9/18/2023,negative,concurrent,4 to 6,Florida,TRUE
+56485991,4,F,lesbian,1/20/2023,negative,sequential,4 to 6,West Virginia,TRUE
+63514006,43,F,bisexual,5/24/2023,negative,sequential,11+,Illinois,TRUE
+61281497,19,F,bisexual,10/12/2023,negative,concurrent,11+,Nevada,FALSE
+15842526,43,F,straight,2/4/2023,positive,sequential,11+,Mississippi,FALSE
+97632577,26,M,straight,8/7/2023,negative,sequential,7 to 10,Florida,FALSE
+14004424,35,F,straight,10/26/2023,negative,concurrent,4 to 6,Washington,TRUE
+72452492,48,F,gay,6/10/2023,positive,sequential,1 to 3,New Jersey,FALSE
+64306709,22,M,straight,6/25/2023,negative,sequential,11+,Colorado,TRUE
+19084424,34,M,straight,9/27/2023,negative,concurrent,7 to 10,Ohio,TRUE
+11495199,37,M,straight,7/18/2023,negative,concurrent,7 to 10,Arkansas,TRUE
+13035293,16,M,straight,5/7/2023,negative,sequential,7 to 10,South Carolina,TRUE
+48138718,34,F,straight,3/17/2023,negative,concurrent,1 to 3,Washington,FALSE
+59994582,29,F,straight,6/7/2023,negative,sequential,4 to 6,Texas,FALSE
+48964958,22,M,straight,2/7/2023,negative,concurrent,4 to 6,Arizona,FALSE
+23367408,11,F,straight,10/19/2023,negative,sequential,11+,Colorado,TRUE
+96689829,29,F,straight,2/12/2023,positive,concurrent,4 to 6,Texas,FALSE
+38467508,26,F,straight,1/17/2023,negative,sequential,11+,Ohio,FALSE
+83356985,26,M,straight,4/18/2023,negative,concurrent,11+,New York,TRUE
+35546793,29,F,straight,6/28/2023,negative,sequential,4 to 6,California,TRUE
+52685989,32,M,straight,9/24/2023,positive,concurrent,1 to 3,Georgia,FALSE
+45070403,20,M,straight,11/7/2023,negative,sequential,4 to 6,Iowa,FALSE
+4589674,6,F,straight,10/8/2023,negative,sequential,7 to 10,Utah,FALSE
+35943640,28,F,straight,2/11/2023,negative,sequential,11+,California,FALSE
+80622955,36,M,straight,12/17/2023,negative,concurrent,4 to 6,California,TRUE
+72177762,41,M,lesbian,8/25/2023,positive,sequential,1 to 3,Nevada,FALSE
+591182,29,F,straight,3/16/2023,positive,concurrent,7 to 10,North Carolina,TRUE
+8506646,34,M,straight,7/18/2023,negative,concurrent,1 to 3,Wisconsin,TRUE
+74733364,29,M,straight,4/2/2023,negative,sequential,11+,Texas,FALSE
+56456579,45,M,straight,6/5/2023,negative,concurrent,1 to 3,Oklahoma,FALSE
+75592742,24,F,lesbian,4/5/2023,negative,concurrent,11+,Florida,FALSE
+13308618,24,M,straight,12/3/2023,negative,concurrent,7 to 10,Maryland,TRUE
+72722934,27,F,straight,5/3/2023,negative,concurrent,1 to 3,Virginia,TRUE
+68174839,36,F,straight,5/19/2023,negative,concurrent,11+,Texas,FALSE
+551846,30,F,straight,5/29/2023,negative,concurrent,4 to 6,Ohio,TRUE
+80693163,53,M,bisexual,7/29/2023,negative,sequential,7 to 10,Rhode Island,FALSE
+2716563,36,F,straight,3/20/2023,negative,sequential,7 to 10,California,TRUE
+34303914,41,F,straight,6/5/2023,positive,sequential,1 to 3,Oregon,FALSE
+6590557,29,F,straight,9/9/2023,positive,concurrent,11+,Alaska,FALSE
+68001315,12,F,straight,4/9/2023,negative,concurrent,1 to 3,South Carolina,TRUE
+71061221,22,M,straight,9/9/2023,positive,concurrent,7 to 10,Texas,FALSE
+9079025,20,F,straight,1/30/2023,negative,sequential,11+,Alabama,TRUE
+8523236,6,F,straight,8/6/2023,negative,sequential,7 to 10,California,TRUE
+4101241,27,F,straight,3/4/2023,negative,sequential,7 to 10,Michigan,FALSE
+65761919,40,F,straight,4/10/2023,negative,concurrent,1 to 3,Arkansas,TRUE
+42356832,25,F,straight,10/14/2023,negative,sequential,4 to 6,Oklahoma,FALSE
+71872258,29,M,straight,4/29/2023,negative,sequential,7 to 10,Nevada,FALSE
+88880640,10,F,straight,12/18/2023,negative,sequential,11+,Georgia,TRUE
+25713611,30,M,straight,10/23/2023,positive,concurrent,1 to 3,Ohio,TRUE
+85902408,39,M,straight,11/21/2023,negative,concurrent,7 to 10,Virginia,FALSE
+95587761,44,F,straight,11/11/2023,negative,concurrent,1 to 3,Texas,TRUE
+92626130,3,F,straight,10/6/2023,negative,concurrent,1 to 3,Tennessee,FALSE
+66831895,27,M,straight,8/6/2023,negative,sequential,4 to 6,District of Columbia,FALSE
+81154007,20,M,straight,8/17/2023,positive,concurrent,7 to 10,Massachusetts,TRUE
+17686269,26,M,straight,1/5/2023,positive,sequential,1 to 3,Maryland,TRUE
+78107933,21,M,straight,4/16/2023,negative,concurrent,7 to 10,Mississippi,TRUE
+46564260,49,F,straight,8/7/2023,negative,concurrent,4 to 6,District of Columbia,TRUE
+42576264,40,F,straight,3/29/2023,negative,concurrent,1 to 3,Iowa,FALSE
+91119317,24,M,straight,9/23/2023,negative,concurrent,7 to 10,Florida,TRUE
+94477566,20,F,straight,9/6/2023,positive,sequential,11+,Iowa,TRUE
+26528500,32,F,straight,10/18/2023,negative,concurrent,4 to 6,District of Columbia,FALSE
+57584865,33,M,straight,5/30/2023,positive,concurrent,4 to 6,Texas,TRUE
+95443559,18,M,straight,7/21/2023,negative,sequential,4 to 6,New Jersey,TRUE
+26815661,29,M,straight,1/25/2023,positive,concurrent,7 to 10,Nevada,FALSE
+59407611,20,F,straight,10/19/2023,negative,concurrent,1 to 3,Colorado,FALSE
+78097727,32,F,straight,5/30/2023,negative,sequential,11+,New York,TRUE
+68934817,29,F,straight,4/9/2023,negative,sequential,11+,Texas,TRUE
+97840536,28,M,straight,2/26/2023,negative,concurrent,1 to 3,Georgia,TRUE
+6702009,25,M,straight,7/31/2023,positive,concurrent,7 to 10,Nebraska,TRUE
+47167916,31,M,straight,8/3/2023,positive,sequential,11+,Michigan,FALSE
+65364529,39,M,straight,1/7/2023,negative,concurrent,7 to 10,Texas,TRUE
+46325655,18,F,straight,6/19/2023,positive,sequential,11+,California,TRUE
+7191098,24,M,straight,12/27/2023,positive,concurrent,4 to 6,California,FALSE
+5164367,33,F,straight,4/1/2023,negative,sequential,7 to 10,Colorado,FALSE
+38079636,8,F,straight,3/27/2023,positive,concurrent,4 to 6,Washington,FALSE
+4547555,35,F,straight,3/26/2023,positive,concurrent,11+,Arizona,TRUE
+54467665,33,F,straight,6/12/2023,negative,sequential,1 to 3,Texas,TRUE
+18190146,33,M,bisexual,2/1/2023,negative,sequential,1 to 3,California,FALSE
+71087281,36,F,straight,12/2/2023,negative,concurrent,4 to 6,Georgia,FALSE
+47364784,15,F,straight,6/23/2023,negative,sequential,11+,Missouri,FALSE
+10200615,28,M,straight,5/2/2023,positive,concurrent,4 to 6,Minnesota,FALSE
+75017763,24,F,bisexual,9/21/2023,negative,sequential,1 to 3,New York,FALSE
+31048492,35,F,straight,10/26/2023,negative,concurrent,4 to 6,Kansas,FALSE
+81458358,22,M,straight,4/3/2023,positive,sequential,1 to 3,Georgia,FALSE
+46059817,48,F,straight,6/27/2023,negative,sequential,4 to 6,Florida,TRUE
+89612033,36,F,straight,2/19/2023,negative,concurrent,4 to 6,Alabama,TRUE
+57217690,45,F,lesbian,5/13/2023,negative,concurrent,4 to 6,Kentucky,FALSE
+78794765,39,F,straight,2/20/2023,positive,sequential,7 to 10,Massachusetts,FALSE
+92285439,4,M,straight,12/8/2023,negative,concurrent,7 to 10,Pennsylvania,TRUE
+688550,40,F,straight,1/13/2023,negative,concurrent,4 to 6,Oregon,FALSE
+22937968,43,M,straight,10/2/2023,positive,sequential,4 to 6,California,FALSE
+60315447,21,F,straight,8/19/2023,positive,concurrent,4 to 6,Missouri,FALSE
+80175968,31,M,straight,9/21/2023,negative,concurrent,4 to 6,Ohio,FALSE
+61131322,5,M,lesbian,10/14/2023,negative,concurrent,7 to 10,New York,FALSE
+18048137,13,M,straight,9/27/2023,negative,concurrent,11+,Oklahoma,TRUE
+73328437,14,M,straight,5/18/2023,negative,sequential,4 to 6,Indiana,FALSE
+85677980,34,F,straight,2/4/2023,negative,sequential,1 to 3,Oklahoma,TRUE
+29938291,50,F,straight,5/1/2023,positive,sequential,4 to 6,District of Columbia,FALSE
+75642641,27,M,lesbian,12/11/2023,positive,concurrent,7 to 10,Ohio,TRUE
+14922859,22,M,straight,10/11/2023,positive,concurrent,11+,Florida,FALSE
+97840475,30,M,straight,6/2/2023,negative,concurrent,4 to 6,Texas,FALSE
+82544660,11,M,straight,2/18/2023,negative,concurrent,4 to 6,Texas,TRUE
+66887043,18,M,straight,3/27/2023,negative,sequential,1 to 3,Colorado,TRUE
+57358861,16,F,straight,11/14/2023,negative,sequential,1 to 3,California,TRUE
+53407400,37,M,straight,1/12/2023,negative,concurrent,7 to 10,Pennsylvania,TRUE
+5313146,31,M,straight,2/20/2023,negative,sequential,11+,Florida,TRUE
+88433232,41,M,straight,9/7/2023,negative,concurrent,7 to 10,Washington,FALSE
+81339268,29,M,straight,9/17/2023,negative,concurrent,1 to 3,Texas,TRUE
+66348933,37,F,straight,11/6/2023,positive,concurrent,11+,California,FALSE
+17439265,23,M,straight,12/13/2023,positive,sequential,11+,California,TRUE
+52954973,26,M,straight,7/7/2023,negative,concurrent,1 to 3,Oklahoma,TRUE
+94598810,29,M,straight,2/13/2023,negative,concurrent,11+,Colorado,TRUE
+67886970,44,F,straight,8/3/2023,positive,sequential,1 to 3,Colorado,FALSE
+62098306,41,F,straight,6/10/2023,positive,concurrent,11+,Pennsylvania,TRUE
+90940934,26,M,straight,8/6/2023,negative,concurrent,1 to 3,Louisiana,TRUE
+62851028,16,F,straight,4/5/2023,negative,concurrent,11+,Minnesota,TRUE
+68837763,33,F,straight,12/17/2023,negative,concurrent,11+,Georgia,FALSE
+91197142,14,F,straight,7/13/2023,negative,concurrent,11+,Washington,TRUE
+60597720,45,M,straight,3/22/2023,negative,concurrent,1 to 3,Ohio,FALSE
+65148795,29,F,bisexual,9/8/2023,negative,sequential,11+,Louisiana,FALSE
+5490583,29,F,straight,12/30/2023,negative,sequential,1 to 3,Minnesota,FALSE
+58450519,14,F,straight,3/29/2023,negative,sequential,1 to 3,South Carolina,FALSE
+26252256,35,M,bisexual,6/29/2023,negative,concurrent,7 to 10,Illinois,FALSE
+78416419,24,M,straight,3/11/2023,positive,sequential,11+,Pennsylvania,FALSE
+57296603,27,F,straight,10/7/2023,negative,concurrent,4 to 6,Florida,TRUE
+32373368,29,M,bisexual,5/27/2023,negative,sequential,1 to 3,Kansas,FALSE
+70807420,25,F,straight,11/7/2023,negative,concurrent,7 to 10,Kansas,FALSE
+56927866,12,F,straight,2/11/2023,negative,concurrent,7 to 10,Missouri,FALSE
+71375124,34,F,straight,2/18/2023,negative,sequential,7 to 10,Texas,TRUE
+48707404,27,F,straight,7/11/2023,negative,concurrent,1 to 3,West Virginia,TRUE
+97854577,29,F,straight,9/28/2023,negative,concurrent,11+,Tennessee,TRUE
+4224958,30,M,straight,12/23/2023,negative,concurrent,1 to 3,Wisconsin,FALSE
+88414580,24,M,straight,2/12/2023,negative,sequential,11+,Pennsylvania,FALSE
+2634067,23,F,straight,3/13/2023,negative,concurrent,11+,District of Columbia,TRUE
+12058541,11,F,straight,3/26/2023,negative,concurrent,4 to 6,Georgia,TRUE
+64115638,34,F,straight,4/18/2023,negative,sequential,4 to 6,Texas,FALSE
+26734586,21,M,bisexual,3/18/2023,positive,sequential,11+,Pennsylvania,FALSE
+61218888,37,F,straight,7/16/2023,negative,sequential,1 to 3,Arizona,FALSE
+73642286,38,M,bisexual,8/6/2023,positive,concurrent,11+,Utah,TRUE
+34150151,52,F,straight,2/26/2023,negative,concurrent,1 to 3,Minnesota,TRUE
+81373723,31,M,gay,5/9/2023,negative,sequential,11+,Kentucky,FALSE
+80692777,32,F,lesbian,10/3/2023,negative,sequential,11+,Illinois,FALSE
+70909855,14,M,straight,8/4/2023,negative,sequential,1 to 3,Ohio,FALSE
+56861217,37,F,straight,11/25/2023,positive,sequential,1 to 3,Arizona,FALSE
+15064026,40,F,gay,7/7/2023,negative,sequential,7 to 10,Michigan,FALSE
+17788444,34,F,straight,5/2/2023,negative,sequential,1 to 3,Louisiana,TRUE
+9615019,34,F,straight,7/7/2023,positive,concurrent,11+,District of Columbia,FALSE
+21206081,27,F,straight,2/15/2023,negative,sequential,11+,California,FALSE
+31689873,26,M,straight,7/31/2023,negative,concurrent,4 to 6,Missouri,FALSE
+78620845,19,F,straight,10/1/2023,negative,sequential,1 to 3,Florida,TRUE
+16485920,25,M,straight,1/29/2023,negative,concurrent,11+,California,TRUE
+1261753,28,M,straight,5/25/2023,negative,concurrent,1 to 3,Colorado,TRUE
+63187846,41,M,straight,2/16/2023,negative,concurrent,4 to 6,Virginia,TRUE
+6711344,18,F,straight,4/2/2023,negative,sequential,1 to 3,District of Columbia,FALSE
+71097576,16,M,straight,7/10/2023,negative,sequential,11+,New York,TRUE
+74035075,26,F,straight,6/17/2023,negative,sequential,11+,Alabama,TRUE
+48199002,40,M,straight,4/9/2023,negative,sequential,7 to 10,Virginia,FALSE
+24405741,21,M,straight,12/5/2023,negative,concurrent,4 to 6,Wisconsin,TRUE
+4306577,18,F,straight,7/27/2023,negative,sequential,7 to 10,New York,TRUE
+13812778,3,M,straight,2/16/2023,negative,concurrent,4 to 6,Texas,FALSE
+16521424,22,M,bisexual,9/10/2023,negative,concurrent,1 to 3,Massachusetts,FALSE
+50617361,19,M,straight,12/1/2023,negative,concurrent,11+,New York,TRUE
+74953921,38,M,bisexual,7/23/2023,negative,sequential,11+,Florida,FALSE
+29860037,35,M,straight,1/1/2023,negative,concurrent,4 to 6,Minnesota,FALSE
+52154777,17,F,straight,11/22/2023,negative,sequential,11+,Illinois,FALSE
+69351847,30,F,straight,5/28/2023,negative,sequential,4 to 6,Minnesota,FALSE
+92295817,20,M,straight,11/2/2023,negative,sequential,11+,New York,TRUE
+70543768,27,F,bisexual,9/30/2023,negative,concurrent,1 to 3,New Jersey,FALSE
+24900266,25,M,gay,8/25/2023,negative,concurrent,7 to 10,Connecticut,TRUE
+22552704,38,F,straight,8/9/2023,negative,concurrent,1 to 3,Colorado,TRUE
+47460002,29,F,straight,1/13/2023,negative,sequential,11+,Texas,FALSE
+12881348,22,F,straight,1/8/2023,negative,concurrent,4 to 6,Rhode Island,FALSE
+30876244,24,F,bisexual,1/9/2023,negative,sequential,4 to 6,Arizona,TRUE
+91130256,37,M,straight,3/5/2023,negative,concurrent,1 to 3,New York,FALSE
+10497410,18,F,straight,12/30/2023,negative,sequential,11+,Alaska,TRUE
+38218100,24,M,lesbian,7/22/2023,positive,concurrent,4 to 6,Texas,FALSE
+40278877,38,M,straight,2/13/2023,negative,concurrent,11+,New York,FALSE
+4618862,40,M,straight,12/26/2023,negative,concurrent,1 to 3,Arizona,FALSE
+99955871,29,F,straight,7/17/2023,negative,sequential,4 to 6,Colorado,TRUE
+17298696,36,F,straight,10/12/2023,positive,sequential,7 to 10,Ohio,FALSE
+96447895,33,M,straight,7/11/2023,negative,concurrent,11+,Minnesota,TRUE
+17672440,21,M,straight,10/16/2023,negative,concurrent,4 to 6,Georgia,FALSE
+87124723,51,F,straight,10/2/2023,negative,concurrent,4 to 6,Idaho,FALSE
+50226763,38,M,straight,5/26/2023,negative,concurrent,7 to 10,North Carolina,FALSE
+72128211,18,F,straight,1/23/2023,positive,sequential,1 to 3,Illinois,FALSE
+82170653,30,M,straight,6/5/2023,negative,sequential,1 to 3,Texas,TRUE
+10543186,28,F,straight,11/20/2023,negative,concurrent,4 to 6,California,TRUE
+86463340,35,M,straight,9/13/2023,positive,sequential,7 to 10,Colorado,FALSE
+66481902,24,F,straight,11/6/2023,negative,sequential,11+,California,FALSE
+59294026,34,M,straight,2/28/2023,negative,concurrent,1 to 3,Virginia,TRUE
+47094155,27,M,straight,1/13/2023,positive,sequential,1 to 3,California,FALSE
+59893771,25,M,straight,11/24/2023,negative,sequential,11+,Nebraska,TRUE
+49063950,35,M,straight,8/25/2023,negative,concurrent,4 to 6,Indiana,FALSE
+23821599,50,F,straight,4/5/2023,negative,sequential,11+,Texas,FALSE
+29223807,39,F,straight,5/1/2023,positive,sequential,7 to 10,Indiana,TRUE
+11910576,34,F,straight,5/7/2023,negative,sequential,1 to 3,Arizona,FALSE
+25364438,39,F,bisexual,2/1/2023,negative,sequential,7 to 10,Alabama,FALSE
+81868467,38,F,straight,2/25/2023,positive,sequential,11+,New York,FALSE
+56055659,24,M,straight,11/7/2023,negative,sequential,1 to 3,New York,TRUE
+57866302,37,F,straight,4/29/2023,negative,concurrent,11+,New Mexico,TRUE
+74306991,36,F,straight,7/10/2023,negative,concurrent,7 to 10,Colorado,FALSE
+57865843,15,M,straight,5/6/2023,negative,sequential,4 to 6,Indiana,TRUE

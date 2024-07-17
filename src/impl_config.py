@@ -2,34 +2,39 @@ from enum import Enum
 from dataclasses import dataclass
 
 class State(Enum):
-    SUSCEPTIBLE = 0
-    INFECTED = 1
-    RESISTANT = 2
-    EXPOSED = 3
-    OFF = 4
+    SUSCEPTIBLE = "negative"
+    INFECTED = "positive"
+    RESISTANT = "resistant"
+    EXPOSED = "exposed"
 
 class AgeGroup(Enum):
     YOUNG = 0
     ADULT = 1
     SENIOR = 2
 
-class Gender(Enum):
-    MALE = 0
-    FEMALE = 1
+class PartnerCount(Enum):
+    LOW = "1 to 3"
+    MEDIUM = "4 to 6"
+    HIGH = "7 to 10"
+    EXTREME = "11+"
 
-class SexualPreference(Enum):
-    HETEROSEXUAL = 0
-    HOMOSEXUAL = 1
-    BISEXUAL = 2
+class Gender(Enum):
+    MALE = "M"
+    FEMALE = "F"
+
+class SexualOrientation(Enum):
+    STRAIGHT = "straight"
+    GAY = "gay"
+    BISEXUAL = "bisexual"
+    LESBIAN = "lesbian"
 
 class PairingType(Enum):
-    SEQUENTIAL = 0
-    RANDOM = 1
+    SEQUENTIAL = "sequential"
+    CONCURRENT = "concurrent"
 
 class SystemPairing(Enum):
-    ON = 0
-    OFF = 1
-    BOTH = 2
+    ON = "true"
+    OFF = "false"
 
 @dataclass
 class VirusParams:

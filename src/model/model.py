@@ -1,9 +1,9 @@
 import mesa
 import networkx as nx
 import numpy as np
+from utils import fetch_csv_data
 from sti import Virus, UserAgent
-from impl_config import State, VirusParams, AgeGroup, Gender, SexualPreference, PairingType, SystemPairing
-import uuid
+from impl_config import State, VirusParams, AgeGroup, Gender, SexualOrientation, PairingType, SystemPairing
 
 class SwabberModel(mesa.Model):
     """
@@ -67,34 +67,35 @@ class SwabberModel(mesa.Model):
 
         # Dictionary to track when each edge was created
         self.edge_creation_times = {}
-        unique_id = uuid.uuid4()
+
+        agents = fetch_csv_data('../../db/csv/user_list.csv', self.num_nodes)
         # Create agents
-        for i, node in enumerate(self.G.nodes()):
+        for i, node in enumerate(self.G.nodes):
+            agent_data = agents[i]
             agent = UserAgent(
-                unique_id=unique_id,
+                agent_id=agent_data['agent_id'],
+                age_group=agent_data['age_group'],
+                gender=agent_data['gender']
+                sexual_preference=agent_data['sexual_orientation'],
+                last_sti_test_data=agent_data['last_sti_test_data'],
+                sti_status=agent_data['sti_status'],
+                partnering_type=agent_data['partnering_type'],
+                partner_count=agent_data['partner_count'],
+                partner_preference=agent_data['partner_preference'],
+                location=agent_data['loc'],
+                system_pairing=agent_data['system_pairing'],
                 model=self,
-                age_group=AgeGroup.YOUNG,
-                gender=Gender.MALE,
-                sexual_preference=SexualPreference.HETEROSEXUAL,
-                pair_type=PairingType.SEQUENTIAL,
-                system_pairing=SystemPairing.ON,
-                partner_preference=State.INFECTED,
-                score=700,
-                infections=[],
             )
+            if agent_data['sti_status'] == State.INFECTED:
+                agent.infections.append(Virus(
+                    self.virus_spread_chance,
+                    self.virus_check_frequency,
+                    self.recovery_chance,
+                    self.gain_resistance_chance,
+                ))
+
             self.schedule.add(agent)
             self.grid.place_agent(agent, node)
-
-        # Infect some nodes
-        infected_nodes = self.random.sample(list(self.G), self.initial_outbreak_size)
-        for agent in self.grid.get_cell_list_contents(infected_nodes):
-            agent.infections.append(Virus(
-                self.virus_spread_chance,
-                self.virus_check_frequency,
-                self.recovery_chance,
-                self.gain_resistance_chance,
-            ))
-            agent.user_state = State.INFECTED
 
         self.running = True
         self.datacollector.collect(self)

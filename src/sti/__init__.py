@@ -1,2 +1,2 @@
 from .infection_types import Bacteria, Virus, Parasite, Infection
-from .agent_types import UserAgent
+from .user_agent import UserAgent
