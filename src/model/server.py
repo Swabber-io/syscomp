@@ -8,16 +8,16 @@ def network_portrayal(G):
 
     def node_color(agent):
         return {State.INFECTED: "#B94848", State.SUSCEPTIBLE: "#0ABFB3"}.get(
-            agent.user_state, "#808080"
+            agent.sti_status, "#808080"
         )
 
     def edge_color(agent1, agent2):
-        if State.RESISTANT in (agent1.user_state, agent2.user_state):
+        if State.RESISTANT in (agent1.sti_status, agent2.sti_status):
             return "#000000"
         return "#e8e8e8"
 
     def edge_width(agent1, agent2):
-        if State.RESISTANT in (agent1.user_state, agent2.user_state):
+        if State.RESISTANT in (agent1.sti_status, agent2.sti_status):
             return 2
         return 1
 
@@ -35,14 +35,14 @@ def network_portrayal(G):
             "size": 8,
             "color": node_color(agents[0]),
             "tooltip": (
-                f"id: {agents[0].unique_id}<br>"
-                f"state: {agents[0].user_state.name} <br>"
+                f"id: {agents[0].agent_id}<br>"
+                f"state: {agents[0].sti_status.name} <br>"
                 f"score: {agents[0].score} <br>"
                 f"age_group: {agents[0].age_group.name} <br>"
                 f"gender: {agents[0].gender.name} <br>"
                 f"sexual_preference: {agents[0].sexual_preference.name} <br>"
-                f"pair_type: {agents[0].pair_type.name} <br>"
-                f"system_pairing: {agents[0].system_pairing.name} <br>"
+                f"pair_type: {agents[0].partnering_type.name} <br>"
+                f"system_pairing: {agents[0].pair_on_system.name} <br>"
                 f"infections: {format_virus_list(agents[0].infections)}"
             ),
         }
@@ -86,9 +86,9 @@ def get_resistant_susceptible_ratio(model):
 model_params = {
     "num_nodes": mesa.visualization.Slider(
         name="Number of agents",
-        value=10,
+        value=250,
         min_value=10,
-        max_value=100,
+        max_value=1000,
         step=1,
         description="Choose how many agents to include in the model",
     )}

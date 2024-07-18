@@ -3,7 +3,7 @@ import networkx as nx
 import numpy as np
 from utils import fetch_csv_data
 from sti import Virus, UserAgent
-from impl_config import State, VirusParams, AgeGroup, Gender, SexualOrientation, PairingType, SystemPairing
+from impl_config import State, VirusParams, AgeGroup, Gender, SexualOrientation, PairingType, PairOnSystem
 
 class SwabberModel(mesa.Model):
     """
@@ -14,11 +14,11 @@ class SwabberModel(mesa.Model):
 
     def __init__(
         self,
-        num_nodes: int = 20,
+        num_nodes: int = 1000,
         initial_outbreak_size: int = 1,
         virus_spread_chance: float = 0.4,
         virus_check_frequency: float = 0.4,
-        recovery_chance: float = 0.,
+        recovery_chance: float = 0.2,
         gain_resistance_chance: float = 0.5,
     ) -> None:
         """
@@ -68,22 +68,21 @@ class SwabberModel(mesa.Model):
         # Dictionary to track when each edge was created
         self.edge_creation_times = {}
 
-        agents = fetch_csv_data('../../db/csv/user_list.csv', self.num_nodes)
+        agents = fetch_csv_data('../db/csv/user_list.csv', self.num_nodes)
         # Create agents
         for i, node in enumerate(self.G.nodes):
             agent_data = agents[i]
             agent = UserAgent(
                 agent_id=agent_data['agent_id'],
                 age_group=agent_data['age_group'],
-                gender=agent_data['gender']
+                gender=agent_data['gender'],
                 sexual_preference=agent_data['sexual_orientation'],
-                last_sti_test_data=agent_data['last_sti_test_data'],
+                last_sti_test_date=agent_data['last_sti_test_date'],
                 sti_status=agent_data['sti_status'],
                 partnering_type=agent_data['partnering_type'],
                 partner_count=agent_data['partner_count'],
-                partner_preference=agent_data['partner_preference'],
                 location=agent_data['loc'],
-                system_pairing=agent_data['system_pairing'],
+                pair_on_system=agent_data['pair_on_system'],
                 model=self,
             )
             if agent_data['sti_status'] == State.INFECTED:
@@ -102,7 +101,7 @@ class SwabberModel(mesa.Model):
 
     def number_state(self, state: State) -> int:
         """Returns the number of agents in a given state."""
-        return sum(1 for agent in self.grid.get_all_cell_contents() if agent.user_state is state)
+        return sum(1 for agent in self.grid.get_all_cell_contents() if agent.sti_status is state)
     
     def resistant_susceptible_ratio(self) -> float:
         """Returns the ratio of resistant to susceptible agents."""

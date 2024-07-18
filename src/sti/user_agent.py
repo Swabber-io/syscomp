@@ -1,6 +1,6 @@
 from . import Bacteria, Virus, Parasite, Infection
 from datetime import datetime
-from impl_config import State, AgeGroup, Gender, SexualOrientation, PairingType, PartnerCount, SystemPairing
+from impl_config import State, AgeGroup, Gender, SexualOrientation, PairingType, PartnerCount, PairOnSystem
 import mesa
 from typing import List, Optional, Any
 
@@ -15,13 +15,12 @@ class UserAgent(mesa.Agent):
         age_group: AgeGroup,
         gender: Gender,
         sexual_preference: SexualOrientation,
-        last_sti_test_data: datetime,
+        last_sti_test_date: datetime,
         sti_status: State,
         partnering_type: PairingType,
         partner_count: PartnerCount,
-        partner_preference: State,
         location: str,
-        system_pairing: SystemPairing,
+        pair_on_system: PairOnSystem,
         model: mesa.Model,
         score : int = 700,
         infections: Optional[List[Infection]] = None,
@@ -32,13 +31,12 @@ class UserAgent(mesa.Agent):
         self.age_group = age_group
         self.gender = gender
         self.sexual_preference = sexual_preference
-        self.last_sti_test_data = last_sti_test_data
+        self.last_sti_test_date = last_sti_test_date
         self.sti_status = sti_status
         self.partnering_type = partnering_type
         self.partner_count = partner_count
-        self.partner_preference = partner_preference
         self.location = location
-        self.system_pairing = system_pairing
+        self.pair_on_system = pair_on_system
         self.model = model
         self.score = score
         self.infections = infections if infections is not None else []
@@ -52,6 +50,6 @@ class UserAgent(mesa.Agent):
 
     def step(self) -> None:
         for infection in self.infections[:]:
-            self.user_state = infection.step(self.user_state, self.model, self.pos)
-            if self.user_state in {State.SUSCEPTIBLE, State.RESISTANT}:
+            self.sti_status = infection.step(self.sti_status, self.model, self.pos)
+            if self.sti_status in {State.SUSCEPTIBLE, State.RESISTANT}:
                 self.infections.remove(infection)

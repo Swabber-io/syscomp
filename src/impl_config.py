@@ -32,9 +32,9 @@ class PairingType(Enum):
     SEQUENTIAL = "sequential"
     CONCURRENT = "concurrent"
 
-class SystemPairing(Enum):
-    ON = "true"
-    OFF = "false"
+class PairOnSystem(Enum):
+    ON = "TRUE"
+    OFF = "FALSE"
 
 @dataclass
 class VirusParams:

@@ -45,11 +45,11 @@ class Virus(Infection):
         neighbors_nodes = model.grid.get_neighborhood(pos, include_center=False)
         susceptible_neighbors = [
             agent for agent in model.grid.get_cell_list_contents(neighbors_nodes)
-            if agent.user_state == State.SUSCEPTIBLE
+            if agent.sti_status == State.SUSCEPTIBLE
         ]
         for neighbor in susceptible_neighbors:
             if random.random() < self.virus_spread_chance:
-                neighbor.user_state = State.INFECTED
+                neighbor.sti_status = State.INFECTED
                 neighbor.infections.append(Virus(
                     self.virus_spread_chance,
                     self.virus_check_frequency,
