@@ -3,7 +3,7 @@ import networkx as nx
 import numpy as np
 from utils import fetch_csv_data
 from sti import Virus, UserAgent
-from impl_config import State, VirusParams, AgeGroup, Gender, SexualOrientation, PairingType, PairOnSystem
+from src.utils.impl_config import State, VirusParams, AgeGroup, Gender, SexualOrientation, PairingType, PairOnSystem
 
 class SwabberModel(mesa.Model):
     """

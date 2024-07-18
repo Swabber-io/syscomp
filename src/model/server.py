@@ -1,6 +1,5 @@
-import math
 import mesa
-from impl_config import State
+from src.utils.impl_config import State
 from model import SwabberModel
 
 def network_portrayal(G):

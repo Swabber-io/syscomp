@@ -1,8 +1,8 @@
 from . import Bacteria, Virus, Parasite, Infection
 from datetime import datetime
-from impl_config import State, AgeGroup, Gender, SexualOrientation, PairingType, PartnerCount, PairOnSystem
+from src.utils.impl_config import State, AgeGroup, Gender, SexualOrientation, PairingType, PartnerCount, PairOnSystem
 import mesa
-from typing import List, Optional, Any
+from typing import List, Optional
 
 class UserAgent(mesa.Agent):
     """
