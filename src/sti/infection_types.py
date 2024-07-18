@@ -1,7 +1,7 @@
 import mesa
 import random
 from abc import abstractmethod, ABC
-from src.utils.impl_config import State
+from utils.impl_config import State
 from typing import Any
 
 class Infection(ABC):

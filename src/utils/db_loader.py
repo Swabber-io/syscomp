@@ -3,7 +3,7 @@ import csv
 import os
 import random
 from datetime import datetime
-from src.utils.impl_config import State, AgeGroup, Gender, SexualOrientation, PairingType, PairOnSystem, PartnerCount
+from utils.impl_config import State, AgeGroup, Gender, SexualOrientation, PairingType, PairOnSystem, PartnerCount
 
 def fetch_db_data():
         """Fetch data from the database."""

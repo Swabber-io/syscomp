@@ -1,6 +1,6 @@
 from . import Bacteria, Virus, Parasite, Infection
 from datetime import datetime
-from src.utils.impl_config import State, AgeGroup, Gender, SexualOrientation, PairingType, PartnerCount, PairOnSystem
+from utils.impl_config import State, AgeGroup, Gender, SexualOrientation, PairingType, PartnerCount, PairOnSystem
 import mesa
 from typing import List, Optional
 
