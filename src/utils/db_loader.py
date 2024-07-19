@@ -22,7 +22,6 @@ def fetch_csv_data(file_path: str, num_agents: int) -> dict:
     with open(file_path, 'r', newline='', encoding='utf-8') as agents_file:
         reader = csv.DictReader(agents_file)
         for row in reader:
-            print(row)
             agent_data = {
                 'agent_id': row['agent_id'],
                 'age_group': AgeGroup.YOUNG if int(row['age']) < 18 else (AgeGroup.ADULT if int(row['age']) < 50 else AgeGroup.SENIOR),

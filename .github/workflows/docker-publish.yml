@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - '!vic'
-      - '!dev'
-      - 'main'
+      - 'dev'
+      - '!main'
 
 env:
   # Use docker.io for Docker Hub if empty

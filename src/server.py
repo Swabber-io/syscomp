@@ -31,8 +31,12 @@ def network_portrayal(G):
     portrayal = {}
     portrayal["nodes"] = [
         {
-            "size": 8,
+            "shape": "rect",
+            "filled": "true",
+            "size": 25,
             "color": node_color(agents[0]),
+            "text": agents[0].score,
+            "text_color": "white",
             "tooltip": (
                 f"id: {agents[0].agent_id}<br>"
                 f"state: {agents[0].sti_status.name} <br>"
@@ -44,6 +48,7 @@ def network_portrayal(G):
                 f"system_pairing: {agents[0].pair_on_system.name} <br>"
                 f"infections: {format_virus_list(agents[0].infections)}"
             ),
+            
         }
         for (_, agents) in G.nodes.data("agent")
     ]
@@ -85,7 +90,7 @@ def get_resistant_susceptible_ratio(model):
 model_params = {
     "num_nodes": mesa.visualization.Slider(
         name="Number of agents",
-        value=250,
+        value=15,
         min_value=10,
         max_value=1000,
         step=1,

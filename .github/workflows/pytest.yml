@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - '!vic'
-      - '!dev'
-      - 'main'
+      - 'dev'
+      - '!main'
 
 jobs:
   analyze:
