@@ -151,6 +151,7 @@ class SwabberModel(mesa.Model):
         """Advance the model by one step."""
         self.current_step += 1
         self.update_edges()
+        # 
         self.schedule.step()
         self.datacollector.collect(self)
 
