@@ -79,8 +79,8 @@ chart = mesa.visualization.ChartModule(
     ]
 )
 
-def get_resistant_susceptible_ratio(model):
-    ratio = model.resistant_susceptible_ratio()
+def get_infected_susceptible_ratio(model):
+    ratio = model.infected_susceptible_ratio()
     ratio_text = "&infin;" if ratio is float('inf') else f"{ratio:.2f}"
     infected_text = model.number_infected()
 
@@ -90,7 +90,7 @@ def get_resistant_susceptible_ratio(model):
 model_params = {
     "num_nodes": mesa.visualization.Slider(
         name="Number of agents",
-        value=15,
+        value=250,
         min_value=10,
         max_value=1000,
         step=1,
@@ -99,7 +99,7 @@ model_params = {
 
 server = mesa.visualization.ModularServer(
     model_cls=SwabberModel,
-    visualization_elements=[network, get_resistant_susceptible_ratio, chart],
+    visualization_elements=[network, get_infected_susceptible_ratio, chart],
     name="Virus on Network Model",
     model_params=model_params,
 )

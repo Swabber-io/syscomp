@@ -40,6 +40,6 @@ class PairOnSystem(Enum):
 class VirusParams:
     spread_chance: float = 0.4
     check_frequency: float = 0.4
-    recovery_chance: float = 0.3
+    recovery_chance: float = 0.0
     gain_resistance_chance: float = 0.5
 

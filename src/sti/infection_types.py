@@ -1,7 +1,7 @@
 import mesa
 import random
 from abc import abstractmethod, ABC
-from utils.impl_config import State
+from utils.impl_config import State, VirusParams
 from typing import Any
 
 class Infection(ABC):
@@ -34,12 +34,12 @@ class Virus(Infection):
     recovery, and gaining resistance.
     """
 
-    def __init__(self, spread_chance: float, check_frequency: float, recovery_chance: float, gain_resistance_chance: float) -> None:
+    def __init__(self) -> None:
         super().__init__()
-        self.virus_spread_chance = spread_chance
-        self.virus_check_frequency = check_frequency
-        self.recovery_chance = recovery_chance
-        self.gain_resistance_chance = gain_resistance_chance
+        self.virus_spread_chance = VirusParams.spread_chance
+        self.virus_check_frequency = VirusParams.check_frequency
+        self.recovery_chance = VirusParams.recovery_chance
+        self.gain_resistance_chance = VirusParams.gain_resistance_chance
 
     def try_to_infect_neighbors(self, model: mesa.Model, pos: Any) -> None:
         neighbors_nodes = model.grid.get_neighborhood(pos, include_center=False)
@@ -50,12 +50,7 @@ class Virus(Infection):
         for neighbor in susceptible_neighbors:
             if random.random() < self.virus_spread_chance:
                 neighbor.sti_status = State.INFECTED
-                neighbor.infections.append(Virus(
-                    self.virus_spread_chance,
-                    self.virus_check_frequency,
-                    self.recovery_chance,
-                    self.gain_resistance_chance,
-                ))
+                neighbor.infections.append(Virus())
 
     def try_gain_resistance(self, state: State) -> State:
         if random.random() < self.gain_resistance_chance:
