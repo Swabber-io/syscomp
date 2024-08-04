@@ -47,6 +47,9 @@ class SwabberModel(mesa.Model):
                 "Susceptible": self.number_susceptible,
                 "Resistant": self.number_resistant,
                 "Resistant/Susceptible Ratio": self.infected_susceptible_ratio,
+                "Degree Distribution": self.degree_distribution,
+                "Clustering Coefficient": self.clustering_coefficient,
+                "Average Path Length": self.average_path_length,
             }
         )
 
@@ -141,6 +144,24 @@ class SwabberModel(mesa.Model):
             return self.number_state(State.INFECTED) / self.number_state(State.SUSCEPTIBLE)
         except ZeroDivisionError:
             return float('inf')
+        
+    def degree_distribution(self):
+        degree_hist = nx.degree_histogram(self.G)
+        print({str(degree): count for degree, count in enumerate(degree_hist)})
+        return {str(degree): count for degree, count in enumerate(degree_hist)}
+
+    def clustering_coefficient(self):
+        print(nx.average_clustering(self.G))
+        return nx.average_clustering(self.G)
+
+    def average_path_length(self):
+        if nx.is_connected(self.G):
+            print(nx.average_shortest_path_length(self.G))
+            return nx.average_shortest_path_length(self.G)
+        else:
+            print(0)
+            return 0
+
 
     def number_infected(self) -> int:
         """Returns the number of infected agents."""

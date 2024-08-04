@@ -71,6 +71,7 @@ network = mesa.visualization.NetworkModule(
     canvas_height=500,
     canvas_width=500,
 )
+
 chart = mesa.visualization.ChartModule(
     [
         {"Label": "Infected", "Color": "#B94848"},
@@ -79,18 +80,35 @@ chart = mesa.visualization.ChartModule(
     ]
 )
 
+degree_dist_chart = mesa.visualization.ChartModule(
+    [{"Label": "Degree Distribution", "Color": "#1f77b4"}],
+    canvas_height=300,
+    canvas_width=600
+)
+
+clustering_coeff_chart = mesa.visualization.ChartModule(
+    [{"Label": "Clustering Coefficient", "Color": "#ff7f0e"}],
+    canvas_height=300,
+    canvas_width=600
+)
+
+avg_path_length_chart = mesa.visualization.ChartModule(
+    [{"Label": "Average Path Length", "Color": "#2ca02c"}],
+    canvas_height=300,
+    canvas_width=600
+)
+
 def get_infected_susceptible_ratio(model):
     ratio = model.infected_susceptible_ratio()
     ratio_text = "&infin;" if ratio is float('inf') else f"{ratio:.2f}"
     infected_text = model.number_infected()
-
     return f"Resistant/Susceptible Ratio: {ratio_text}<br>Infected Remaining: {infected_text}"
 
 
 model_params = {
     "num_nodes": mesa.visualization.Slider(
         name="Number of agents",
-        value=250,
+        value=100,
         min_value=10,
         max_value=1000,
         step=1,
@@ -99,7 +117,13 @@ model_params = {
 
 server = mesa.visualization.ModularServer(
     model_cls=SwabberModel,
-    visualization_elements=[network, get_infected_susceptible_ratio, chart],
+    visualization_elements=[
+        network,
+        get_infected_susceptible_ratio,
+        chart,
+        degree_dist_chart,
+        clustering_coeff_chart,
+    ],
     name="Virus on Network Model",
     model_params=model_params,
 )
